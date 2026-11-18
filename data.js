@@ -1523,117 +1523,6 @@ window.WORKBOOK_DATA = {
       ]
     },
     {
-      "id": "tb5",
-      "group": "textbook",
-      "order": 21,
-      "nav": "교과서 5과",
-      "title": "The Colorful Truth About Ancient Sculptures",
-      "source": "교과서 5과 p.119~125, Focus on Language p.128~129",
-      "type": "시간·인과 구조 · 편견 · 어법",
-      "flow": [
-        "고대 조각의 색채 흔적 발견",
-        "르네상스 이후 ‘흰 대리석=이상적 아름다움’ 편견",
-        "과학적 분석 → polychromy 재평가"
-      ],
-      "oneLine": "오랫동안 당연시된 ‘고대 조각은 흰색’이라는 믿음은 과학적 증거로 수정되었다.",
-      "keyExpr": "polychromy → Renaissance bias → scientific evidence → changed perception",
-      "quotes": [
-        {
-          "src": "p.119",
-          "en": "There were clear signs of polychromy: the use of various colors in the decoration of statues or works of architecture.",
-          "ko": "조각상이나 건축물 장식에 여러 색을 사용한 다색채색의 명백한 흔적이 있었다.",
-          "why": "본문 핵심 개념 polychromy의 정의."
-        },
-        {
-          "src": "p.121",
-          "en": "Over a period of more than 1,000 years, much of the paint with which these sculptures were originally decorated wore off.",
-          "ko": "1,000년이 넘는 동안 이 조각들을 원래 장식했던 페인트의 상당 부분이 닳아 없어졌다.",
-          "why": "전치사+관계대명사와 편견 형성의 원인이 함께 나온다."
-        },
-        {
-          "src": "p.124",
-          "en": "The fact that Greek and Roman artists normally decorated their sculptures with vivid colors is now widely acknowledged.",
-          "ko": "그리스·로마 예술가들이 조각을 선명한 색으로 장식했다는 사실은 이제 널리 인정된다.",
-          "why": "동격 that과 현재의 인식 변화를 보여준다."
-        }
-      ],
-      "grammar": {
-        "title": "전치사 + 관계대명사 / 동격 that",
-        "body": "with which에서 which는 앞의 paint와 연결되어 ‘그 페인트로’라는 뜻을 만든다. the fact that ~의 that절은 fact의 내용을 설명한다.",
-        "cue": "관계대명사와 동격 that을 ‘앞 명사를 꾸미는가 / 내용을 설명하는가’로 구분."
-      },
-      "inputs": [
-        {
-          "id": "tb5-i1",
-          "prompt": "Brinkmann found clear signs of ______ on ancient sculptures.",
-          "answer": "polychromy",
-          "hint": "다색채색"
-        },
-        {
-          "id": "tb5-i2",
-          "prompt": "Much of the paint ______ off over more than 1,000 years.",
-          "answer": "wore",
-          "hint": "wear off"
-        },
-        {
-          "id": "tb5-i3",
-          "prompt": "The colorful past of ancient sculptures is now widely ______.",
-          "answer": "acknowledged",
-          "hint": "p.124 핵심 표현"
-        }
-      ],
-      "dissect": {
-        "sentence": "Over a period of more than 1,000 years, much of the paint with which these sculptures were originally decorated wore off.",
-        "fields": [
-          {
-            "label": "선행사",
-            "answer": "paint"
-          },
-          {
-            "label": "전치사",
-            "answer": "with"
-          },
-          {
-            "label": "관계대명사",
-            "answer": "which"
-          },
-          {
-            "label": "주절 동사",
-            "answer": "wore off"
-          }
-        ]
-      },
-      "rebuild": {
-        "ko": "그리스와 로마 예술가들이 조각을 선명한 색으로 장식했다는 사실은 이제 널리 인정된다.",
-        "bank": [
-          "The fact that",
-          "Greek and Roman artists",
-          "normally decorated their sculptures with vivid colors",
-          "is now widely acknowledged."
-        ],
-        "answer": "The fact that Greek and Roman artists normally decorated their sculptures with vivid colors is now widely acknowledged."
-      },
-      "transform": {
-        "badge": "워크북 변형",
-        "question": "다음 중 ‘흰 대리석=이상적 아름다움’이라는 편견이 오래 지속된 이유로 가장 적절한 것은?",
-        "options": [
-          "고대 예술가들이 색 사용을 법으로 금지했기 때문이다.",
-          "발굴 당시 색이 많이 사라진 흰 표면이 미적 기준으로 받아들여졌고 이후 색의 증거가 무시되었기 때문이다.",
-          "Brinkmann이 색채 흔적을 발견했지만 이를 공개하지 않았기 때문이다.",
-          "르네상스 예술가들이 고대 조각의 원래 색을 그대로 복원했기 때문이다."
-        ],
-        "answer": 1,
-        "explain": "본문은 색이 닳아 흰 조각이 발굴된 뒤 흰 대리석 미학이 강화되고, 이후 색의 증거가 오랫동안 무시되었다고 설명한다."
-      },
-      "original": {
-        "label": "교과서 본문 확인",
-        "question": "1980년대 이후 사람들의 polychromy 인식 변화에 기여한 것은?",
-        "answer": "The development of new methods of scientific analysis and the work of scholars.",
-        "explain": "p.124 Q9의 직접 확인 내용."
-      },
-      "section": "4·5과"
-    },
-    {
       "id": "st1",
       "group": "suneung",
       "order": 1,
@@ -4857,6 +4746,1677 @@ window.WORKBOOK_DATA = {
           ],
           "answer": 1,
           "explain": "세 본문 해결책 모두 repair를 실질적 선택으로 만드는 방향."
+        }
+      ]
+    },
+    {
+      "id": "tb5map",
+      "group": "textbook",
+      "order": 40,
+      "section": "5과 전체",
+      "nav": "5과 전체맵",
+      "density": "전체 구조",
+      "title": "Lesson 5 · The Colorful Truth About Ancient Sculptures",
+      "source": "교과서 5과 p.118~130",
+      "type": "전체 논리 · 편견과 수정",
+      "flow": [
+        "고대 조각의 polychromy 흔적 발견",
+        "르네상스 이후 ‘흰 대리석=이상적 아름다움’ 편견 형성·고착",
+        "과학적 분석과 학자 연구로 편견 수정 → 객관적 시각의 중요성"
+      ],
+      "oneLine": "5과는 ‘고대 조각은 원래 흰색’이라는 오해가 어떻게 생겨 오래 지속되었고, 과학적 증거가 그것을 어떻게 수정했는지를 보여 준다.",
+      "keyExpr": "polychromy → Renaissance misconception → entrenched bias → scientific evidence → changed perception",
+      "quotes": [
+        {
+          "src": "p.119",
+          "en": "There were clear signs of polychromy: the use of various colors in the decoration of statues or works of architecture.",
+          "ko": "조각상이나 건축물을 장식할 때 여러 색을 사용한 다색채색의 명백한 흔적이 있었다.",
+          "why": "본문 전체의 출발점이 되는 발견."
+        },
+        {
+          "src": "p.124",
+          "en": "The fact that Greek and Roman artists normally decorated their sculptures with vivid colors is now widely acknowledged.",
+          "ko": "그리스·로마 예술가들이 조각을 선명한 색으로 장식했다는 사실은 이제 널리 인정된다.",
+          "why": "현재의 수정된 인식을 압축한다."
+        },
+        {
+          "src": "p.125",
+          "en": "Perhaps there is more to the world than meets the eye.",
+          "ko": "어쩌면 세상에는 눈에 보이는 것보다 더 많은 것이 있을지도 모른다.",
+          "why": "편견과 고정관념에 대한 최종 교훈."
+        }
+      ],
+      "grammar": {
+        "title": "시간·인과 신호 + ‘증거 → 인식 변화’",
+        "body": "본문은 in the early 1980s, since the Renaissance, over time, until the 1960s, since the 1980s처럼 시간 흐름을 따라 편견 형성과 수정을 보여 준다.",
+        "cue": "학생에게 ‘사실의 변화’가 아니라 ‘사람들의 인식이 어떻게 바뀌었는지’를 중심으로 말하게 해."
+      },
+      "inputs": [
+        {
+          "id": "tb5map-i1",
+          "prompt": "여러 색으로 조각을 꾸미는 관행: ______",
+          "answer": "polychromy",
+          "hint": "핵심 용어"
+        },
+        {
+          "id": "tb5map-i2",
+          "prompt": "르네상스 이후 흰 대리석과 ______ beauty가 연결되었다.",
+          "answer": "ideal",
+          "hint": "p.122"
+        },
+        {
+          "id": "tb5map-i3",
+          "prompt": "현재는 다색채색이 널리 ______.",
+          "answer": "acknowledged",
+          "hint": "p.124"
+        }
+      ],
+      "dissect": {
+        "sentence": "The fact that Greek and Roman artists normally decorated their sculptures with vivid colors is now widely acknowledged.",
+        "fields": [
+          {
+            "label": "주어 핵심",
+            "answer": "fact"
+          },
+          {
+            "label": "동격 접속사",
+            "answer": "that"
+          },
+          {
+            "label": "that절 동사",
+            "answer": "decorated"
+          },
+          {
+            "label": "주절 동사",
+            "answer": "is acknowledged"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "그리스와 로마 예술가들이 조각을 선명한 색으로 장식했다는 사실은 이제 널리 인정된다.",
+        "bank": [
+          "is now widely acknowledged.",
+          "The fact that",
+          "normally decorated their sculptures with vivid colors",
+          "Greek and Roman artists"
+        ],
+        "answer": "The fact that Greek and Roman artists normally decorated their sculptures with vivid colors is now widely acknowledged."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "5과 전체의 핵심 메시지로 가장 적절한 것은?",
+        "options": [
+          "오래된 미적 기준은 과학적 증거보다 항상 신뢰할 만하다.",
+          "고대 조각의 색채는 현대 학자들이 새로 만든 것이다.",
+          "오랜 믿음도 편견일 수 있으므로 증거를 통해 객관적으로 재검토해야 한다.",
+          "르네상스 예술가들은 고대의 색채 관행을 정확히 보존했다."
+        ],
+        "answer": 2,
+        "explain": "본문은 흰 대리석 편견이 오래 지속되었지만 과학적 분석과 연구로 수정된 과정을 보여 준다."
+      },
+      "original": {
+        "label": "5과 전체 확인",
+        "question": "사람들의 polychromy 인식 변화에 기여한 것은?",
+        "answer": "The development of new methods of scientific analysis and the work of scholars.",
+        "explain": "p.124 Q9의 직접 답."
+      }
+    },
+    {
+      "id": "tb5p118",
+      "group": "textbook",
+      "order": 41,
+      "section": "5과 준비",
+      "nav": "p.118 Before",
+      "density": "보조 경량형",
+      "title": "p.118 · Before You Read",
+      "source": "교과서 5과 p.118",
+      "type": "배경 · 핵심 어휘",
+      "flow": [
+        "흰 조각 vs 채색 조각 비교",
+        "sculpture · astonished · fade · contrast · reinforce · associate",
+        "본문 주제: 우리가 익숙한 ‘흰 고대 조각’ 이미지에 의문"
+      ],
+      "oneLine": "본문에 들어가기 전, ‘고대 조각=흰색’이라는 익숙한 인상을 깨뜨릴 어휘와 시각적 대비를 준비한다.",
+      "keyExpr": "sculpture / fade / contrast / reinforce / associate",
+      "quotes": [
+        {
+          "src": "p.118",
+          "en": "The color of my favorite shirt has faded after many years of wearing it.",
+          "ko": "내가 좋아하는 셔츠의 색은 여러 해 입은 뒤 바랬다.",
+          "why": "본문에서 고대 조각의 색이 사라지는 과정과 연결되는 fade."
+        },
+        {
+          "src": "p.118",
+          "en": "The positive reviews of his new book reinforced his reputation as a great writer.",
+          "ko": "새 책에 대한 긍정적 평가는 훌륭한 작가라는 그의 평판을 강화했다.",
+          "why": "p.122에서 흰 대리석 미학이 강화되는 reinforce와 연결."
+        }
+      ],
+      "grammar": {
+        "title": "어휘를 본문 흐름에 연결",
+        "body": "fade는 색이 바래다, reinforce는 기존 생각을 강화하다, associate A with B는 A와 B를 연결 짓다.",
+        "cue": "단어만 외우기보다 ‘색이 fade → 흰색 이미지가 reinforce → whiteness를 beauty와 associate’ 흐름으로 묶어."
+      },
+      "inputs": [
+        {
+          "id": "tb5p118-i1",
+          "prompt": "색이 바래다: ______",
+          "answer": "fade",
+          "hint": "시간이 지나며 색이 약해짐"
+        },
+        {
+          "id": "tb5p118-i2",
+          "prompt": "A를 B와 연관 짓다: associate A ______ B",
+          "answer": "with",
+          "hint": "전치사"
+        },
+        {
+          "id": "tb5p118-i3",
+          "prompt": "기존 인식을 강화하다: ______",
+          "answer": "reinforce",
+          "hint": "강화하다"
+        }
+      ],
+      "dissect": {
+        "sentence": "Many people associate summer with vacations or the beach.",
+        "fields": [
+          {
+            "label": "주어",
+            "answer": "Many people"
+          },
+          {
+            "label": "동사",
+            "answer": "associate"
+          },
+          {
+            "label": "A",
+            "answer": "summer"
+          },
+          {
+            "label": "전치사",
+            "answer": "with"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "많은 사람들은 여름을 휴가나 해변과 연관 짓는다.",
+        "bank": [
+          "summer",
+          "Many people associate",
+          "with",
+          "vacations or the beach."
+        ],
+        "answer": "Many people associate summer with vacations or the beach."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "p.118의 어휘 중 본문의 ‘흰 대리석=아름다움’ 인식 형성과 가장 직접적으로 연결되는 조합은?",
+        "options": [
+          "fade + reinforce + associate",
+          "sculpture + beach + shirt",
+          "astonished + vacation + review",
+          "contrast + wearing + writer"
+        ],
+        "answer": 0,
+        "explain": "색은 fade되고, 흰 대리석 이미지가 reinforce되며, whiteness가 beauty와 associate된다."
+      },
+      "original": {
+        "label": "Before You Read 확인",
+        "question": "‘대조’라는 뜻의 단어는?",
+        "answer": "contrast",
+        "explain": "p.118 Vocabulary Preview에 제시된다."
+      }
+    },
+    {
+      "id": "tb5p119",
+      "group": "textbook",
+      "order": 42,
+      "section": "5과 본문",
+      "nav": "p.119 발견",
+      "density": "본문 고밀도",
+      "title": "p.119 · Brinkmann’s Unexpected Discovery",
+      "source": "교과서 5과 p.119",
+      "type": "발견 · 핵심 개념",
+      "flow": [
+        "Brinkmann이 도구 자국을 자세히 보기 위해 UV lamp 개발",
+        "조각을 비추다 예상 못한 것을 발견",
+        "polychromy 흔적 확인"
+      ],
+      "oneLine": "도구 자국을 보려던 연구가 우연히 고대 조각의 색채 흔적을 발견하는 계기가 된다.",
+      "keyExpr": "ultraviolet lamp → unexpected signs → polychromy",
+      "quotes": [
+        {
+          "src": "p.119",
+          "en": "He wanted to figure out a way to closely examine the marks left by tools on ancient Greek and Roman marble sculptures, so he developed a special ultraviolet lamp that would reveal marble surfaces in great detail.",
+          "ko": "그는 고대 그리스·로마 대리석 조각에 도구가 남긴 자국을 자세히 조사할 방법을 찾고자 특별한 자외선 램프를 개발했다.",
+          "why": "램프의 원래 목적."
+        },
+        {
+          "src": "p.119",
+          "en": "When Brinkmann shone his lamp on the sculptures, he was astonished to see something that he had not expected.",
+          "ko": "Brinkmann이 램프를 비췄을 때 예상하지 못한 것을 보고 놀랐다.",
+          "why": "발견의 전환점."
+        },
+        {
+          "src": "p.119",
+          "en": "There were clear signs of polychromy: the use of various colors in the decoration of statues or works of architecture.",
+          "ko": "조각상이나 건축물 장식에 여러 색을 사용하는 다색채색의 명백한 흔적이 있었다.",
+          "why": "핵심 용어 정의."
+        }
+      ],
+      "grammar": {
+        "title": "과거분사 후치수식 / 관계대명사 that",
+        "body": "marks left by tools에서 left는 marks를 뒤에서 꾸민다. lamp that would reveal..., something that he had not expected에서 that은 관계대명사.",
+        "cue": "‘램프 목적 = 색 찾기’가 아니라 ‘도구 자국 관찰’이었다는 점을 꼭 구분."
+      },
+      "inputs": [
+        {
+          "id": "tb5p119-i1",
+          "prompt": "He developed a special ______ lamp.",
+          "answer": "ultraviolet",
+          "hint": "자외선"
+        },
+        {
+          "id": "tb5p119-i2",
+          "prompt": "He was ______ to see something unexpected.",
+          "answer": "astonished",
+          "hint": "깜짝 놀란"
+        },
+        {
+          "id": "tb5p119-i3",
+          "prompt": "clear signs of ______",
+          "answer": "polychromy",
+          "hint": "다색채색"
+        }
+      ],
+      "dissect": {
+        "sentence": "He wanted to figure out a way to closely examine the marks left by tools on ancient Greek and Roman marble sculptures.",
+        "fields": [
+          {
+            "label": "주어",
+            "answer": "He"
+          },
+          {
+            "label": "to부정사 동사 1",
+            "answer": "figure out"
+          },
+          {
+            "label": "to부정사 동사 2",
+            "answer": "examine"
+          },
+          {
+            "label": "과거분사 수식",
+            "answer": "left by tools"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "그는 고대 그리스와 로마 대리석 조각에 도구가 남긴 자국을 자세히 조사할 방법을 찾고자 했다.",
+        "bank": [
+          "the marks left by tools",
+          "He wanted to figure out",
+          "on ancient Greek and Roman marble sculptures.",
+          "a way to closely examine"
+        ],
+        "answer": "He wanted to figure out a way to closely examine the marks left by tools on ancient Greek and Roman marble sculptures."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "Brinkmann이 특별한 자외선 램프를 개발한 원래 목적은?",
+        "options": [
+          "조각의 원래 색을 복원하려고",
+          "도구가 남긴 자국을 자세히 조사하려고",
+          "르네상스 조각의 연대를 측정하려고",
+          "대리석의 가격을 비교하려고"
+        ],
+        "answer": 1,
+        "explain": "p.119 Q1도 같은 내용을 묻는다."
+      },
+      "original": {
+        "label": "p.119 Q2",
+        "question": "Brinkmann은 램프를 비췄을 때 무엇을 발견했는가?",
+        "answer": "He discovered clear signs of polychromy.",
+        "explain": "교과서 Q2의 직접 답."
+      }
+    },
+    {
+      "id": "tb5p120",
+      "group": "textbook",
+      "order": 43,
+      "section": "5과 본문",
+      "nav": "p.120 증거",
+      "density": "본문 고밀도",
+      "title": "p.120 · Evidence Everywhere",
+      "source": "교과서 5과 p.120",
+      "type": "증거 확대 · 원래 모습",
+      "flow": [
+        "더 많은 조각 조사 → 거의 모든 조각에서 색 흔적",
+        "특별한 램프 없이도 육안으로 보이는 흔적",
+        "흰 대리석은 canvas처럼 사용되어 선명한 색으로 장식됨"
+      ],
+      "oneLine": "색채 흔적은 예외가 아니라 매우 널리 존재했고, 흰 대리석 표면은 원래 색칠을 위한 바탕이었다.",
+      "keyExpr": "evidence on almost every statue → white marble as canvas → vivid pigments",
+      "quotes": [
+        {
+          "src": "p.120",
+          "en": "To his surprise, he found evidence of polychromy on almost every statue that he looked at.",
+          "ko": "놀랍게도 그가 본 거의 모든 조각상에서 다색채색의 증거를 발견했다.",
+          "why": "polychromy가 예외가 아니었음을 보여 준다."
+        },
+        {
+          "src": "p.120",
+          "en": "Their research showed undeniable evidence that, while white marble was a highly valued material for Greek and Roman sculptors, its smooth surface was not always left bare.",
+          "ko": "흰 대리석이 높이 평가된 재료였지만 매끄러운 표면이 항상 맨 상태로 남겨진 것은 아니었다는 명백한 증거를 보여 주었다.",
+          "why": "기존 인식과 실제 사용을 대비."
+        },
+        {
+          "src": "p.120",
+          "en": "Instead, the white marble was used like a canvas.",
+          "ko": "대신 흰 대리석은 캔버스처럼 사용되었다.",
+          "why": "고대 조각의 원래 기능을 압축."
+        }
+      ],
+      "grammar": {
+        "title": "by V-ing / while 대조 / not always",
+        "body": "by examining은 방법, while은 ‘~인 반면/비록 ~이지만’의 대조, was not always left bare는 부분 부정.",
+        "cue": "bare marble ≠ final appearance, canvas = painted surface라는 이미지로 설명."
+      },
+      "inputs": [
+        {
+          "id": "tb5p120-i1",
+          "prompt": "He found evidence on almost ______ statue.",
+          "answer": "every",
+          "hint": "거의 모든"
+        },
+        {
+          "id": "tb5p120-i2",
+          "prompt": "The marble surface was not always left ______.",
+          "answer": "bare",
+          "hint": "아무것도 입히지 않은"
+        },
+        {
+          "id": "tb5p120-i3",
+          "prompt": "White marble was used like a ______.",
+          "answer": "canvas",
+          "hint": "그림 바탕"
+        }
+      ],
+      "dissect": {
+        "sentence": "Their research showed undeniable evidence that, while white marble was a highly valued material for Greek and Roman sculptors, its smooth surface was not always left bare.",
+        "fields": [
+          {
+            "label": "주절 동사",
+            "answer": "showed"
+          },
+          {
+            "label": "동격 내용 접속사",
+            "answer": "that"
+          },
+          {
+            "label": "대조 접속사",
+            "answer": "while"
+          },
+          {
+            "label": "수동태",
+            "answer": "was not always left"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "흰 대리석은 그리스·로마 조각가들에게 높이 평가된 재료였지만 그 표면이 항상 그대로 남겨진 것은 아니었다.",
+        "bank": [
+          "its smooth surface was not always left bare.",
+          "while white marble was a highly valued material",
+          "Their research showed undeniable evidence that,",
+          "for Greek and Roman sculptors,"
+        ],
+        "answer": "Their research showed undeniable evidence that, while white marble was a highly valued material for Greek and Roman sculptors, its smooth surface was not always left bare."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "p.120의 ‘white marble was used like a canvas’가 의미하는 것은?",
+        "options": [
+          "대리석에 글만 적었다.",
+          "대리석 표면에 다양한 색의 안료를 칠했다.",
+          "대리석을 천처럼 접었다.",
+          "대리석을 흰색으로 다시 칠했다."
+        ],
+        "answer": 1,
+        "explain": "바로 뒤 문장에서 vivid pigments were applied to decorate the sculptures in many rich colors라고 설명한다."
+      },
+      "original": {
+        "label": "p.120 Q3",
+        "question": "‘색 흔적은 특별한 램프 없이는 볼 수 없었다’는 T/F?",
+        "answer": "F",
+        "explain": "많은 흔적은 naked eye로도 clearly 볼 수 있었다."
+      }
+    },
+    {
+      "id": "tb5p121",
+      "group": "textbook",
+      "order": 44,
+      "section": "5과 본문",
+      "nav": "p.121 오해 시작",
+      "density": "본문 고밀도",
+      "title": "p.121 · How the Misconception Began",
+      "source": "교과서 5과 p.121",
+      "type": "원인 · 르네상스",
+      "flow": [
+        "오늘날 ‘고대 조각=순백’ 이미지가 익숙함",
+        "1,000년 이상 지나며 원래 페인트가 닳고 발굴 과정에서도 벗겨짐",
+        "르네상스 사람들이 흰 대리석의 매끈함과 명암 대비에 감탄"
+      ],
+      "oneLine": "고대 조각이 원래 흰색이어서가 아니라, 색이 오랜 시간과 발굴 과정에서 사라진 채 르네상스에 발견되면서 오해가 시작됐다.",
+      "keyExpr": "paint wore off → white marble exposed → Renaissance admiration",
+      "quotes": [
+        {
+          "src": "p.121",
+          "en": "Over a period of more than 1,000 years, much of the paint with which these sculptures were originally decorated wore off.",
+          "ko": "1,000년이 넘는 기간 동안 이 조각들을 원래 장식했던 페인트의 상당 부분이 닳아 없어졌다.",
+          "why": "전치사+관계대명사 + 오해 발생 원인."
+        },
+        {
+          "src": "p.121",
+          "en": "Any paint that remained was faded, and more of it came off during the excavation process itself.",
+          "ko": "남아 있던 페인트도 바랬고, 발굴 과정 자체에서 더 많은 페인트가 벗겨졌다.",
+          "why": "흰 표면이 드러난 과정."
+        },
+        {
+          "src": "p.121",
+          "en": "As a result, when these ancient statues were taken out of the ground, their surfaces were plain white marble.",
+          "ko": "그 결과 고대 조각들이 땅에서 꺼내졌을 때 표면은 장식 없는 흰 대리석이었다.",
+          "why": "원인→결과 연결."
+        }
+      ],
+      "grammar": {
+        "title": "전치사 + 관계대명사 / when절 / 수동태",
+        "body": "paint with which the sculptures were decorated = 조각을 장식했던 페인트. were taken out은 수동태.",
+        "cue": "‘흰 상태로 제작’이 아니라 ‘색이 사라진 뒤 흰 상태로 발굴’이라는 차이를 반복."
+      },
+      "inputs": [
+        {
+          "id": "tb5p121-i1",
+          "prompt": "Much of the paint ______ off.",
+          "answer": "wore",
+          "hint": "wear off"
+        },
+        {
+          "id": "tb5p121-i2",
+          "prompt": "Any paint that remained was ______.",
+          "answer": "faded",
+          "hint": "색이 바랜"
+        },
+        {
+          "id": "tb5p121-i3",
+          "prompt": "The statues were taken out of the ______.",
+          "answer": "ground",
+          "hint": "발굴"
+        }
+      ],
+      "dissect": {
+        "sentence": "Over a period of more than 1,000 years, much of the paint with which these sculptures were originally decorated wore off.",
+        "fields": [
+          {
+            "label": "선행사",
+            "answer": "paint"
+          },
+          {
+            "label": "전치사",
+            "answer": "with"
+          },
+          {
+            "label": "관계대명사",
+            "answer": "which"
+          },
+          {
+            "label": "주절 동사",
+            "answer": "wore off"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "1,000년이 넘는 동안 이 조각들을 원래 장식했던 페인트의 상당 부분이 닳아 없어졌다.",
+        "bank": [
+          "wore off.",
+          "much of the paint",
+          "Over a period of more than 1,000 years,",
+          "with which these sculptures were originally decorated"
+        ],
+        "answer": "Over a period of more than 1,000 years, much of the paint with which these sculptures were originally decorated wore off."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "르네상스 사람들이 고대 조각을 흰 대리석으로 인식하게 된 직접적인 원인은?",
+        "options": [
+          "고대 예술가들이 흰색만 사용해서",
+          "원래 페인트가 오랜 시간과 발굴 과정에서 사라졌기 때문에",
+          "Brinkmann이 색을 제거했기 때문에",
+          "로마 시대 법이 채색을 금지해서"
+        ],
+        "answer": 1,
+        "explain": "paint wore off/faded/came off → surfaces were plain white marble."
+      },
+      "original": {
+        "label": "p.121 Q5",
+        "question": "1,000년 넘는 기간 동안 고대 조각에 무슨 일이 일어났는가?",
+        "answer": "Much of the paint with which the sculptures were originally decorated wore off.",
+        "explain": "Q5의 교과서 답."
+      }
+    },
+    {
+      "id": "tb5p122",
+      "group": "textbook",
+      "order": 45,
+      "section": "5과 본문",
+      "nav": "p.122 편견 강화",
+      "density": "본문 고밀도",
+      "title": "p.122 · White Marble Becomes an Ideal",
+      "source": "교과서 5과 p.122",
+      "type": "미적 기준 형성",
+      "flow": [
+        "1489 Apollo Belvedere 발굴",
+        "맨 돌 표면과 몸의 윤곽이 르네상스 예술가들에게 강한 인상",
+        "흰 대리석을 ideal beauty와 연결 → Michelangelo도 같은 관점"
+      ],
+      "oneLine": "발굴 당시의 흰 모습이 아름다움의 기준으로 받아들여지면서 ‘흰 대리석=이상미’라는 연결이 강화됐다.",
+      "keyExpr": "bare white marble → admiration → ideal beauty",
+      "quotes": [
+        {
+          "src": "p.122",
+          "en": "Renaissance artists were amazed by how its bare stone surface highlighted the elegant outline of the sculpted body.",
+          "ko": "르네상스 예술가들은 맨 돌 표면이 조각된 몸의 우아한 윤곽을 강조하는 방식에 감탄했다.",
+          "why": "흰 표면 미학의 출발."
+        },
+        {
+          "src": "p.122",
+          "en": "This discovery reinforced the artists’ admiration for white marble.",
+          "ko": "이 발견은 예술가들의 흰 대리석에 대한 감탄을 강화했다.",
+          "why": "reinforce 반복."
+        },
+        {
+          "src": "p.122",
+          "en": "Both artists and scholars began to associate undecorated white marble with ideal beauty.",
+          "ko": "예술가와 학자 모두 장식되지 않은 흰 대리석을 이상적인 아름다움과 연관 짓기 시작했다.",
+          "why": "편견 형성의 핵심 문장."
+        }
+      ],
+      "grammar": {
+        "title": "how + S V / associate A with B / in order to",
+        "body": "amazed by how its surface highlighted..., associate A with B, traveled ... in order to purchase... 구조를 본다.",
+        "cue": "Apollo Belvedere는 ‘증거’가 아니라 편견을 강화한 역사적 계기라는 점."
+      },
+      "inputs": [
+        {
+          "id": "tb5p122-i1",
+          "prompt": "The discovery ______ the artists’ admiration.",
+          "answer": "reinforced",
+          "hint": "강화했다"
+        },
+        {
+          "id": "tb5p122-i2",
+          "prompt": "associate white marble ______ ideal beauty",
+          "answer": "with",
+          "hint": "전치사"
+        },
+        {
+          "id": "tb5p122-i3",
+          "prompt": "Michelangelo traveled to quarries to purchase high-quality white ______.",
+          "answer": "marble",
+          "hint": "재료"
+        }
+      ],
+      "dissect": {
+        "sentence": "Both artists and scholars began to associate undecorated white marble with ideal beauty.",
+        "fields": [
+          {
+            "label": "주어",
+            "answer": "Both artists and scholars"
+          },
+          {
+            "label": "동사",
+            "answer": "began"
+          },
+          {
+            "label": "to부정사 동사",
+            "answer": "associate"
+          },
+          {
+            "label": "전치사",
+            "answer": "with"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "예술가와 학자 모두 장식되지 않은 흰 대리석을 이상적인 아름다움과 연관 짓기 시작했다.",
+        "bank": [
+          "with ideal beauty.",
+          "Both artists and scholars",
+          "undecorated white marble",
+          "began to associate"
+        ],
+        "answer": "Both artists and scholars began to associate undecorated white marble with ideal beauty."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "Apollo Belvedere의 발견이 편견 형성에 기여한 방식은?",
+        "options": [
+          "원래 색이 완벽히 보존되어 채색 전통을 확립했다.",
+          "흰 표면의 미적 효과가 찬사를 받아 whiteness와 beauty의 연결을 강화했다.",
+          "색채 흔적이 발견되어 즉시 기존 인식이 바뀌었다.",
+          "Michelangelo가 조각을 다시 채색했다."
+        ],
+        "answer": 1,
+        "explain": "bare stone surface에 대한 admiration이 white marble=ideal beauty 연결을 reinforce했다."
+      },
+      "original": {
+        "label": "p.122 Q6",
+        "question": "르네상스 예술가와 학자들은 장식되지 않은 흰 대리석을 무엇과 연관 지었는가?",
+        "answer": "ideal beauty",
+        "explain": "Q6의 교과서 답."
+      }
+    },
+    {
+      "id": "tb5p123",
+      "group": "textbook",
+      "order": 46,
+      "section": "5과 본문",
+      "nav": "p.123 편견 고착",
+      "density": "본문 고밀도",
+      "title": "p.123 · When Evidence Was Ignored",
+      "source": "교과서 5과 p.123",
+      "type": "편견 고착 · 반증 무시",
+      "flow": [
+        "흰색=예술적 아름다움 연결이 서양 문화에 깊게 뿌리내림",
+        "18~19세기 색 흔적이 발견되어도 인식은 바뀌지 않음",
+        "polychromy를 믿은 학자 비판·채색 복원품 폄하·색 흔적 제거까지"
+      ],
+      "oneLine": "편견이 강해지자 반대 증거가 나와도 사람들은 증거를 무시하거나 깎아내리며 기존 믿음을 유지했다.",
+      "keyExpr": "deeply rooted bias → contrary evidence ignored → misconception persisted",
+      "quotes": [
+        {
+          "src": "p.123",
+          "en": "Over time, the association of whiteness with artistic beauty grew stronger in people’s minds, and it became deeply rooted in Western art and culture.",
+          "ko": "시간이 지나면서 흰색과 예술적 아름다움의 연관은 더 강해져 서양 예술과 문화에 깊이 뿌리내렸다.",
+          "why": "편견의 고착."
+        },
+        {
+          "src": "p.123",
+          "en": "Despite the excavation of ancient Greek and Roman artifacts with traces of color in the 18th and 19th centuries, the bias toward white marble sculpture was so firmly established that people’s perceptions did not alter.",
+          "ko": "색 흔적이 있는 유물이 발굴됐음에도 흰 대리석 편견이 너무 확고해 인식이 바뀌지 않았다.",
+          "why": "despite + so...that."
+        },
+        {
+          "src": "p.123",
+          "en": "Some of them even had their colors wiped off so that the bare white surface beneath could be seen.",
+          "ko": "일부는 아래의 흰 표면이 보이도록 색을 닦아내기까지 했다.",
+          "why": "have O p.p. + so that."
+        }
+      ],
+      "grammar": {
+        "title": "despite / so ... that / have O p.p.",
+        "body": "Despite + 명사, so firmly established that..., had their colors wiped off 구조가 핵심.",
+        "cue": "‘증거 없음’이 아니라 ‘증거가 있어도 받아들이지 않음’이 포인트."
+      },
+      "inputs": [
+        {
+          "id": "tb5p123-i1",
+          "prompt": "The bias became deeply ______ in Western art and culture.",
+          "answer": "rooted",
+          "hint": "뿌리내린"
+        },
+        {
+          "id": "tb5p123-i2",
+          "prompt": "people’s perceptions did not ______",
+          "answer": "alter",
+          "hint": "바뀌다"
+        },
+        {
+          "id": "tb5p123-i3",
+          "prompt": "Some sculptures had their colors ______ off.",
+          "answer": "wiped",
+          "hint": "have O p.p."
+        }
+      ],
+      "dissect": {
+        "sentence": "The bias toward white marble sculpture was so firmly established that people’s perceptions did not alter.",
+        "fields": [
+          {
+            "label": "주어 핵심",
+            "answer": "bias"
+          },
+          {
+            "label": "수동태",
+            "answer": "was established"
+          },
+          {
+            "label": "강조 구조 앞부분",
+            "answer": "so firmly"
+          },
+          {
+            "label": "결과 접속사",
+            "answer": "that"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "흰 대리석 조각에 대한 편견은 너무 확고하게 자리 잡아서 사람들의 인식이 바뀌지 않았다.",
+        "bank": [
+          "that people’s perceptions did not alter.",
+          "The bias toward white marble sculpture",
+          "so firmly established",
+          "was"
+        ],
+        "answer": "The bias toward white marble sculpture was so firmly established that people’s perceptions did not alter."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "p.123이 ‘편견’의 위험을 가장 강하게 보여 주는 사례는?",
+        "options": [
+          "색 흔적 발견 뒤 즉시 학계가 수정됨",
+          "색채 복원품이 높은 평가를 받음",
+          "반대 증거가 있어도 무시하고 일부 조각의 색을 지우기까지 함",
+          "르네상스 이전부터 흰색 편견이 사라짐"
+        ],
+        "answer": 2,
+        "explain": "증거가 존재했지만 perceptions did not alter, colors were wiped off까지 이어진다."
+      },
+      "original": {
+        "label": "p.123 Q8",
+        "question": "‘일부 고대 조각은 색이 의도적으로 닦여 나갔다’는 T/F?",
+        "answer": "T",
+        "explain": "Some of them even had their colors wiped off..."
+      }
+    },
+    {
+      "id": "tb5p124",
+      "group": "textbook",
+      "order": 47,
+      "section": "5과 본문",
+      "nav": "p.124 인식 변화",
+      "density": "본문 고밀도",
+      "title": "p.124 · Science Changes the Picture",
+      "source": "교과서 5과 p.124",
+      "type": "인식 수정 · 연구 확산",
+      "flow": [
+        "1980s 이후 과학 분석법+Brinkmann 부부 연구",
+        "polychromy가 흔했다는 사실이 널리 인정",
+        "colored recreations·Gods in Color 전시로 대중 인식 확장"
+      ],
+      "oneLine": "새 분석 기술과 지속적인 연구가 충분한 증거를 쌓으면서 오랜 편견이 학계와 대중 모두에서 수정되기 시작했다.",
+      "keyExpr": "scientific analysis + scholarship → sufficient evidence → public enlightenment",
+      "quotes": [
+        {
+          "src": "p.124",
+          "en": "However, since the 1980s, thanks to the development of new methods of scientific analysis and the work of scholars such as Vinzenz Brinkmann and Ulrike Koch-Brinkmann, the bias about white marble sculptures has been changing.",
+          "ko": "그러나 1980년대 이후 새로운 과학 분석법과 학자들의 연구 덕분에 흰 대리석 조각에 대한 편견은 변화해 왔다.",
+          "why": "인식 변화의 원인."
+        },
+        {
+          "src": "p.124",
+          "en": "The fact that Greek and Roman artists normally decorated their sculptures with vivid colors is now widely acknowledged.",
+          "ko": "그리스·로마 예술가들이 조각을 선명한 색으로 장식했다는 사실은 이제 널리 인정된다.",
+          "why": "현재의 합의."
+        },
+        {
+          "src": "p.124",
+          "en": "The contrast has provided an eye-opening experience for the public, challenging artistic biases and deeply rooted misconceptions.",
+          "ko": "그 대비는 대중에게 눈을 뜨게 하는 경험을 제공해 예술적 편견과 깊이 뿌리박힌 오해에 도전했다.",
+          "why": "전시의 역할 + 분사구문."
+        }
+      ],
+      "grammar": {
+        "title": "현재완료진행 의미 / 동격 that / 분사구문",
+        "body": "has been changing은 과거부터 현재까지 변화 진행. The fact that...에서 that은 fact 내용 설명. challenging...은 결과·부가 설명.",
+        "cue": "‘새 사실이 생긴 것’이 아니라 ‘기존 사실에 대한 해석이 바뀐 것’으로 정리."
+      },
+      "inputs": [
+        {
+          "id": "tb5p124-i1",
+          "prompt": "The bias has been ______ since the 1980s.",
+          "answer": "changing",
+          "hint": "변화 중"
+        },
+        {
+          "id": "tb5p124-i2",
+          "prompt": "The colorful past is now widely ______.",
+          "answer": "acknowledged",
+          "hint": "인정되다"
+        },
+        {
+          "id": "tb5p124-i3",
+          "prompt": "The exhibition was called Gods in ______.",
+          "answer": "Color",
+          "hint": "전시명"
+        }
+      ],
+      "dissect": {
+        "sentence": "The fact that Greek and Roman artists normally decorated their sculptures with vivid colors is now widely acknowledged.",
+        "fields": [
+          {
+            "label": "주어 핵심",
+            "answer": "fact"
+          },
+          {
+            "label": "동격 접속사",
+            "answer": "that"
+          },
+          {
+            "label": "that절 동사",
+            "answer": "decorated"
+          },
+          {
+            "label": "주절 수동태",
+            "answer": "is acknowledged"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "그리스와 로마 예술가들이 조각을 선명한 색으로 장식했다는 사실은 이제 널리 인정된다.",
+        "bank": [
+          "is now widely acknowledged.",
+          "Greek and Roman artists",
+          "The fact that",
+          "normally decorated their sculptures with vivid colors"
+        ],
+        "answer": "The fact that Greek and Roman artists normally decorated their sculptures with vivid colors is now widely acknowledged."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "p.124에서 colored recreations를 전시하는 목적은?",
+        "options": [
+          "원본을 대체해 흰 조각을 숨기기 위해",
+          "연구와 대중 교육에 모두 도움을 주기 위해",
+          "원래 조각의 색을 지우기 위해",
+          "르네상스 미학을 강화하기 위해"
+        ],
+        "answer": 1,
+        "explain": "both to benefit research and to enlighten the public라고 직접 제시된다."
+      },
+      "original": {
+        "label": "p.124 Q9",
+        "question": "사람들의 태도 변화에 기여한 것은?",
+        "answer": "The development of new methods of scientific analysis and the work of scholars.",
+        "explain": "교과서 Q9의 직접 답."
+      }
+    },
+    {
+      "id": "tb5p125",
+      "group": "textbook",
+      "order": 48,
+      "section": "5과 본문",
+      "nav": "p.125 교훈",
+      "density": "본문 고밀도",
+      "title": "p.125 · Transform Our Eyes",
+      "source": "교과서 5과 p.125",
+      "type": "결론 · 일반화",
+      "flow": [
+        "Brinkmann: misconceptions 극복하려면 eyes를 objective tools로 바꿔야 함",
+        "오랜 믿음이 stereotypes/biases의 결과인지 질문",
+        "눈에 보이는 것보다 더 많은 것이 있을 수 있음"
+      ],
+      "oneLine": "5과의 최종 교훈은 ‘익숙하게 보이는 것’을 그대로 믿지 말고 객관적 증거로 오래된 믿음을 검토하자는 것이다.",
+      "keyExpr": "transform our eyes → objective tools → question stereotypes and biases",
+      "quotes": [
+        {
+          "src": "p.125",
+          "en": "Brinkmann believes that we need to transform our eyes into objective tools in order to overcome widespread misconceptions.",
+          "ko": "Brinkmann은 널리 퍼진 오해를 극복하기 위해 우리의 눈을 객관적 도구로 바꿀 필요가 있다고 믿는다.",
+          "why": "본문 메시지의 직접 진술."
+        },
+        {
+          "src": "p.125",
+          "en": "Shouldn’t we pause to ask ourselves if some of our long-held beliefs are the results of stereotypes and biases?",
+          "ko": "오래 유지한 믿음 중 일부가 고정관념과 편견의 결과인지 잠시 멈춰 스스로 물어봐야 하지 않을까?",
+          "why": "주제를 일반화."
+        },
+        {
+          "src": "p.125",
+          "en": "Perhaps there is more to the world than meets the eye.",
+          "ko": "어쩌면 세상에는 눈에 보이는 것보다 더 많은 것이 있을지도 모른다.",
+          "why": "마지막 메시지."
+        }
+      ],
+      "grammar": {
+        "title": "transform A into B / if 간접의문 / there is more than",
+        "body": "transform our eyes into objective tools, ask ourselves if..., there is more to A than... 표현을 본다.",
+        "cue": "조각 이야기에서 끝내지 말고 ‘고정관념 일반’으로 확장되는 문단임을 강조."
+      },
+      "inputs": [
+        {
+          "id": "tb5p125-i1",
+          "prompt": "transform our eyes ______ objective tools",
+          "answer": "into",
+          "hint": "A를 B로 바꾸다"
+        },
+        {
+          "id": "tb5p125-i2",
+          "prompt": "overcome widespread ______",
+          "answer": "misconceptions",
+          "hint": "오해"
+        },
+        {
+          "id": "tb5p125-i3",
+          "prompt": "stereotypes and ______",
+          "answer": "biases",
+          "hint": "편견"
+        }
+      ],
+      "dissect": {
+        "sentence": "Shouldn’t we pause to ask ourselves if some of our long-held beliefs are the results of stereotypes and biases?",
+        "fields": [
+          {
+            "label": "주어",
+            "answer": "we"
+          },
+          {
+            "label": "첫 동사",
+            "answer": "pause"
+          },
+          {
+            "label": "간접의문 접속사",
+            "answer": "if"
+          },
+          {
+            "label": "if절 주어",
+            "answer": "some of our long-held beliefs"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "우리는 오래된 믿음 일부가 고정관념과 편견의 결과인지 스스로 물어보기 위해 잠시 멈춰야 하지 않을까?",
+        "bank": [
+          "are the results of stereotypes and biases?",
+          "Shouldn’t we pause",
+          "if some of our long-held beliefs",
+          "to ask ourselves"
+        ],
+        "answer": "Shouldn’t we pause to ask ourselves if some of our long-held beliefs are the results of stereotypes and biases?"
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "p.125가 고대 조각 사례에서 끌어내는 일반적 교훈은?",
+        "options": [
+          "시각적 인상은 항상 객관적이다.",
+          "오래 믿어 온 생각도 고정관념·편견의 결과인지 재검토해야 한다.",
+          "전문가의 말은 증거 없이도 믿어야 한다.",
+          "역사적 오해는 수정할 수 없다."
+        ],
+        "answer": 1,
+        "explain": "objective tools, long-held beliefs, stereotypes and biases가 직접 연결된다."
+      },
+      "original": {
+        "label": "Big Question 연결",
+        "question": "학문 세계가 편견과 고정관념을 없애는 데 할 수 있는 역할은?",
+        "answer": "It can use objective evidence and research to challenge and correct long-held misconceptions.",
+        "explain": "p.124~125의 연구·전시·객관적 증거 흐름을 바탕으로 한 핵심 요지."
+      }
+    },
+    {
+      "id": "tb5p126",
+      "group": "textbook",
+      "order": 49,
+      "section": "5과 복습",
+      "nav": "p.126 After",
+      "density": "보조 경량형",
+      "title": "p.126 · Timeline Summary",
+      "source": "교과서 5과 p.126 After You Read",
+      "type": "요약 · 시간 순서",
+      "flow": [
+        "고대: vivid colors",
+        "르네상스: 흰 대리석 미학 형성",
+        "18~19C 증거 무시 → 1980s 이후 재발견·전시"
+      ],
+      "oneLine": "p.126은 5과를 ‘고대 사실 → 르네상스 오해 → 편견 고착 → 현대 수정’ 순서로 다시 배열하는 페이지다.",
+      "keyExpr": "ancient polychromy → Renaissance whiteness → ignored evidence → modern correction",
+      "quotes": [
+        {
+          "src": "p.126",
+          "en": "During the time of ancient Greece and Rome, sculptors painted their sculptures with vivid colors.",
+          "ko": "고대 그리스와 로마 시대에 조각가들은 조각을 선명한 색으로 칠했다.",
+          "why": "시작점."
+        },
+        {
+          "src": "p.126",
+          "en": "The bias toward white sculptures was so widespread in Western art that people started to ignore the traces of colors found on sculptures excavated in the 18th and 19th centuries.",
+          "ko": "흰 조각 편견이 너무 널리 퍼져 18~19세기 발굴 조각의 색 흔적을 무시하기 시작했다.",
+          "why": "편견 고착."
+        }
+      ],
+      "grammar": {
+        "title": "시간 순서 재구성",
+        "body": "사건 자체보다 1→2→3→4→5→6 순서를 통해 인식 변화의 원인을 복습한다.",
+        "cue": "학생에게 번호 없이 여섯 사건을 말로 재배열시켜도 좋아."
+      },
+      "inputs": [
+        {
+          "id": "tb5p126-i1",
+          "prompt": "Ancient sculptors used vivid ______.",
+          "answer": "colors",
+          "hint": "고대"
+        },
+        {
+          "id": "tb5p126-i2",
+          "prompt": "Brinkmann found signs of ______.",
+          "answer": "polychromy",
+          "hint": "1980s"
+        },
+        {
+          "id": "tb5p126-i3",
+          "prompt": "Modern researchers created ______ versions for display.",
+          "answer": "colored",
+          "hint": "재현품"
+        }
+      ],
+      "dissect": {
+        "sentence": "During the time of ancient Greece and Rome, sculptors painted their sculptures with vivid colors.",
+        "fields": [
+          {
+            "label": "주어",
+            "answer": "sculptors"
+          },
+          {
+            "label": "동사",
+            "answer": "painted"
+          },
+          {
+            "label": "목적어",
+            "answer": "their sculptures"
+          },
+          {
+            "label": "전치사구",
+            "answer": "with vivid colors"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "고대 그리스와 로마 시대에 조각가들은 조각을 선명한 색으로 칠했다.",
+        "bank": [
+          "with vivid colors.",
+          "During the time of ancient Greece and Rome,",
+          "their sculptures",
+          "sculptors painted"
+        ],
+        "answer": "During the time of ancient Greece and Rome, sculptors painted their sculptures with vivid colors."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "다음 사건의 올바른 흐름은?",
+        "options": [
+          "편견 수정 → 고대 채색 → 르네상스 발견",
+          "고대 채색 → 색 소실·르네상스 흰색 찬미 → 증거 무시 → 현대 수정",
+          "르네상스 채색 → 고대 흰색 → 현대 오해",
+          "현대 연구 → 고대 채색 시작"
+        ],
+        "answer": 1,
+        "explain": "p.126 Summary의 시간 순서와 동일하다."
+      },
+      "original": {
+        "label": "p.126 Check Out the Details",
+        "question": "‘Michelangelo는 흰 대리석을 ideal beauty와 연관 짓지 않았다’는 T/F?",
+        "answer": "F",
+        "explain": "Michelangelo was no exception."
+      }
+    },
+    {
+      "id": "tb5p127",
+      "group": "textbook",
+      "order": 50,
+      "section": "5과 복습",
+      "nav": "p.127 Extension",
+      "density": "보조 경량형",
+      "title": "p.127 · Misconceptions Beyond Art",
+      "source": "교과서 5과 p.127 Extension",
+      "type": "오해 검증 · 확장",
+      "flow": [
+        "본문 후 자신의 인식 변화 말하기",
+        "다른 misconception을 fact로 검증",
+        "left/right brain·10% brain·microwave 사례"
+      ],
+      "oneLine": "5과의 사고방식을 다른 오해에도 적용해 ‘익숙한 주장’과 ‘검증된 사실’을 구분한다.",
+      "keyExpr": "misconception → evidence/fact → revised belief",
+      "quotes": [
+        {
+          "src": "p.127",
+          "en": "I was really surprised to learn that many ancient sculptures were originally painted.",
+          "ko": "많은 고대 조각이 원래 채색되어 있었다는 사실을 알고 정말 놀랐다.",
+          "why": "본문 학습 후 인식 변화의 예."
+        },
+        {
+          "src": "p.127",
+          "en": "When it is healthy, the entire brain is active, and this is true even when people are sleeping.",
+          "ko": "건강한 경우 뇌 전체가 활동하며 이는 잠잘 때도 마찬가지다.",
+          "why": "‘뇌 10%’ 오해를 반박하는 fact."
+        }
+      ],
+      "grammar": {
+        "title": "misconception vs fact",
+        "body": "언어 지식보다 ‘주장-증거’ 구조가 핵심. 자료에서 misconception과 fact를 분리해 읽는다.",
+        "cue": "학생에게 ‘왜 그 말을 믿었는지’보다 ‘무슨 증거가 반박하는지’를 말하게 해."
+      },
+      "inputs": [
+        {
+          "id": "tb5p127-i1",
+          "prompt": "Humans can only use 10% of their brain. → This is a ______.",
+          "answer": "misconception",
+          "hint": "오해"
+        },
+        {
+          "id": "tb5p127-i2",
+          "prompt": "When healthy, the ______ brain is active.",
+          "answer": "entire",
+          "hint": "전체"
+        }
+      ],
+      "dissect": {
+        "sentence": "When it is healthy, the entire brain is active, and this is true even when people are sleeping.",
+        "fields": [
+          {
+            "label": "첫 시간접속사",
+            "answer": "When"
+          },
+          {
+            "label": "주절 주어",
+            "answer": "the entire brain"
+          },
+          {
+            "label": "주절 동사",
+            "answer": "is"
+          },
+          {
+            "label": "두 번째 시간접속사",
+            "answer": "when"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "건강할 때 뇌 전체가 활동하며, 이는 사람이 자는 동안에도 사실이다.",
+        "bank": [
+          "and this is true",
+          "the entire brain is active,",
+          "When it is healthy,",
+          "even when people are sleeping."
+        ],
+        "answer": "When it is healthy, the entire brain is active, and this is true even when people are sleeping."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "p.127 Extension의 목적은?",
+        "options": [
+          "새 미술사 본문을 추가한다.",
+          "본문에서 배운 ‘편견을 증거로 검토하기’를 다른 오해에 적용한다.",
+          "고대 조각을 다시 흰색으로 해석한다.",
+          "문법만 암기시킨다."
+        ],
+        "answer": 1,
+        "explain": "misconception/fact 사례를 검색·비교하게 한다."
+      },
+      "original": {
+        "label": "Extension 확인",
+        "question": "‘사람은 뇌의 10%만 사용한다’는 주장에 대한 자료의 판단은?",
+        "answer": "It is wrong.",
+        "explain": "건강한 뇌는 전체가 활동한다고 설명한다."
+      }
+    },
+    {
+      "id": "tb5p128",
+      "group": "textbook",
+      "order": 51,
+      "section": "5과 언어",
+      "nav": "p.128 어휘",
+      "density": "보조 경량형",
+      "title": "p.128 · Word & Collocation Building",
+      "source": "교과서 5과 p.128 Focus on Language",
+      "type": "접미사·접두사 · 연어",
+      "flow": [
+        "-ure: sculpt→sculpture, expose→exposure, depart→departure",
+        "in-: inaccurate, infinite, inadequate, inconvenient",
+        "detect / acknowledge 연어"
+      ],
+      "oneLine": "형태 변화와 함께 detect a trace/movement/error, widely/officially/barely acknowledge를 묶어 익힌다.",
+      "keyExpr": "sculpture / exposure / inaccurate / inconvenient / detect / acknowledge",
+      "quotes": [
+        {
+          "src": "p.128",
+          "en": "Excessive exposure to loud noise can cause permanent hearing loss.",
+          "ko": "큰 소음에 과도하게 노출되면 영구적 청력 손실을 일으킬 수 있다.",
+          "why": "expose→exposure 품사 변화."
+        },
+        {
+          "src": "p.128",
+          "en": "His boss barely acknowledged his dedication, which led him to quit.",
+          "ko": "상사는 그의 헌신을 거의 인정하지 않았고 그것이 그가 그만두게 했다.",
+          "why": "barely acknowledge 연어."
+        }
+      ],
+      "grammar": {
+        "title": "-ure / in- / collocation",
+        "body": "sculpt→sculpture, press→pressure, expose→exposure, depart→departure. in-은 부정 의미를 더한다.",
+        "cue": "본문의 sculpture, inaccurate, acknowledge와 직접 연결해."
+      },
+      "inputs": [
+        {
+          "id": "tb5p128-i1",
+          "prompt": "sculpt → ______",
+          "answer": "sculpture",
+          "hint": "명사"
+        },
+        {
+          "id": "tb5p128-i2",
+          "prompt": "accurate → ______",
+          "answer": "inaccurate",
+          "hint": "부정 접두사"
+        },
+        {
+          "id": "tb5p128-i3",
+          "prompt": "detect an ______",
+          "answer": "error",
+          "hint": "연어"
+        }
+      ],
+      "dissect": {
+        "sentence": "Excessive exposure to loud noise can cause permanent hearing loss.",
+        "fields": [
+          {
+            "label": "주어 핵심",
+            "answer": "exposure"
+          },
+          {
+            "label": "전치사",
+            "answer": "to"
+          },
+          {
+            "label": "조동사",
+            "answer": "can"
+          },
+          {
+            "label": "동사",
+            "answer": "cause"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "큰 소음에 과도하게 노출되면 영구적인 청력 손실을 일으킬 수 있다.",
+        "bank": [
+          "permanent hearing loss.",
+          "Excessive exposure",
+          "can cause",
+          "to loud noise"
+        ],
+        "answer": "Excessive exposure to loud noise can cause permanent hearing loss."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "다음 중 p.128 연어로 맞지 않는 것은?",
+        "options": [
+          "detect a trace",
+          "detect movement",
+          "detect an error",
+          "detect a dedication"
+        ],
+        "answer": 3,
+        "explain": "dedication은 acknowledge와 연결되고, detect에는 trace/movement/error가 제시된다."
+      },
+      "original": {
+        "label": "Focus on Language 확인",
+        "question": "‘불편한’에 해당하는 in- 파생어는?",
+        "answer": "inconvenient",
+        "explain": "convenient → inconvenient."
+      }
+    },
+    {
+      "id": "tb5p129",
+      "group": "textbook",
+      "order": 52,
+      "section": "5과 언어",
+      "nav": "p.129 어법",
+      "density": "보조 경량형",
+      "title": "p.129 · Appositive That & Preposition + Which",
+      "source": "교과서 5과 p.129 Focus on Language",
+      "type": "동격 that · 전치사+관계대명사",
+      "flow": [
+        "the news/fact/rumor that S V = 앞 명사의 내용",
+        "the position for which...",
+        "본문 p.120·124 that, p.121 with which 연결"
+      ],
+      "oneLine": "p.129는 ‘내용을 설명하는 that’과 ‘전치사를 앞에 둔 관계대명사 which’를 본문 문장으로 다시 묶는다.",
+      "keyExpr": "the fact that S V / the N + prep + which",
+      "quotes": [
+        {
+          "src": "p.129 / p.120",
+          "en": "Their research showed undeniable evidence that, while white marble was a highly valued material for Greek and Roman sculptors, its smooth surface was not always left bare.",
+          "ko": "그들의 연구는 흰 대리석의 표면이 항상 맨 상태로 남은 것은 아니라는 명백한 증거를 보여 주었다.",
+          "why": "evidence의 내용을 설명하는 that."
+        },
+        {
+          "src": "p.129 / p.121",
+          "en": "Over a period of more than 1,000 years, much of the paint with which these sculptures were originally decorated wore off.",
+          "ko": "1,000년이 넘는 동안 이 조각들을 장식했던 페인트의 상당 부분이 닳아 없어졌다.",
+          "why": "전치사 + 관계대명사."
+        }
+      ],
+      "grammar": {
+        "title": "동격 that vs 관계대명사 / 전치사 + which",
+        "body": "the news/fact/evidence that S V에서 that은 앞 명사의 ‘내용’을 설명한다. with which에서 which는 선행사 paint를 받아 관계절 성분이 된다.",
+        "cue": "that 뒤 문장이 완전한지, which가 절 안에서 명사 역할을 하는지 비교."
+      },
+      "inputs": [
+        {
+          "id": "tb5p129-i1",
+          "prompt": "I heard the news ______ his novel was published.",
+          "answer": "that",
+          "hint": "동격"
+        },
+        {
+          "id": "tb5p129-i2",
+          "prompt": "the paint ______ which these sculptures were decorated",
+          "answer": "with",
+          "hint": "전치사"
+        },
+        {
+          "id": "tb5p129-i3",
+          "prompt": "the position for ______ you applied",
+          "answer": "which",
+          "hint": "관계대명사"
+        }
+      ],
+      "dissect": {
+        "sentence": "Over a period of more than 1,000 years, much of the paint with which these sculptures were originally decorated wore off.",
+        "fields": [
+          {
+            "label": "선행사",
+            "answer": "paint"
+          },
+          {
+            "label": "전치사",
+            "answer": "with"
+          },
+          {
+            "label": "관계대명사",
+            "answer": "which"
+          },
+          {
+            "label": "주절 동사",
+            "answer": "wore off"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "1,000년 넘는 기간 동안 이 조각들을 원래 장식했던 페인트의 상당 부분이 닳아 없어졌다.",
+        "bank": [
+          "with which these sculptures were originally decorated",
+          "wore off.",
+          "Over a period of more than 1,000 years,",
+          "much of the paint"
+        ],
+        "answer": "Over a period of more than 1,000 years, much of the paint with which these sculptures were originally decorated wore off."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "다음 중 that의 쓰임이 p.129 Point 1과 같은 것은?",
+        "options": [
+          "The lamp that he developed was special.",
+          "The fact that the sculptures were colorful surprised people.",
+          "The statue that stood outside was old.",
+          "The scholar that wrote the book traveled widely."
+        ],
+        "answer": 1,
+        "explain": "the fact that S V에서 that은 fact의 내용을 설명하는 동격 접속사."
+      },
+      "original": {
+        "label": "p.129 Practice",
+        "question": "‘그 약이 효과가 없다는 소문’의 올바른 어순은?",
+        "answer": "The rumor that the medicine didn’t work",
+        "explain": "the rumor + that + 완전한 문장."
+      }
+    },
+    {
+      "id": "tb5p130",
+      "group": "textbook",
+      "order": 53,
+      "section": "5과 활동",
+      "nav": "p.130 View",
+      "density": "보조 경량형",
+      "title": "p.130 · The Way We Interpret the World",
+      "source": "교과서 5과 p.130 View & Learn",
+      "type": "인지편향 · survivorship bias",
+      "flow": [
+        "불완전한 정보로 판단할 때 cognitive bias 발생",
+        "survivorship bias = 성공·생존 사례에만 주목",
+        "WWII 항공기: 돌아온 비행기 손상 부위가 아니라 돌아오지 못한 비행기까지 고려해야 함"
+      ],
+      "oneLine": "보이는 데이터만 보면 중요한 ‘빠진 데이터’를 놓칠 수 있으므로, 분석할 때 무엇이 빠졌는지를 고려해야 한다.",
+      "keyExpr": "survivors only → missing data ignored → wrong conclusion",
+      "quotes": [
+        {
+          "src": "p.130",
+          "en": "There are about 180 different types of cognitive biases.",
+          "ko": "인지 편향에는 약 180가지 유형이 있다.",
+          "why": "인지편향의 범위."
+        },
+        {
+          "src": "p.130",
+          "en": "This cognitive bias, “survivorship bias,” for example, is an inclination to focus only on individuals or things that have succeeded or survived, while ignoring those that have not.",
+          "ko": "생존자 편향은 성공하거나 살아남은 대상에만 집중하고 그렇지 않은 대상을 무시하는 경향이다.",
+          "why": "survivorship bias 정의."
+        },
+        {
+          "src": "p.130",
+          "en": "We need to consider what is missing in our analysis in order to make better decisions.",
+          "ko": "더 나은 결정을 위해 분석에서 무엇이 빠졌는지 고려해야 한다.",
+          "why": "영상의 교훈."
+        }
+      ],
+      "grammar": {
+        "title": "focus on / while V-ing / what 명사절",
+        "body": "focus only on..., while ignoring..., consider what is missing 구조를 확인한다.",
+        "cue": "‘돌아온 비행기’만 본 것이 왜 표본 편향인지 그림과 함께 말하게 해."
+      },
+      "inputs": [
+        {
+          "id": "tb5p130-i1",
+          "prompt": "Survivorship bias focuses on things that have succeeded or ______.",
+          "answer": "survived",
+          "hint": "살아남은"
+        },
+        {
+          "id": "tb5p130-i2",
+          "prompt": "while ______ those that have not",
+          "answer": "ignoring",
+          "hint": "무시하면서"
+        },
+        {
+          "id": "tb5p130-i3",
+          "prompt": "consider what is ______ in our analysis",
+          "answer": "missing",
+          "hint": "빠진 것"
+        }
+      ],
+      "dissect": {
+        "sentence": "We need to consider what is missing in our analysis in order to make better decisions.",
+        "fields": [
+          {
+            "label": "주어",
+            "answer": "We"
+          },
+          {
+            "label": "동사",
+            "answer": "need"
+          },
+          {
+            "label": "명사절",
+            "answer": "what is missing"
+          },
+          {
+            "label": "목적 표현",
+            "answer": "in order to make better decisions"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "더 나은 결정을 내리기 위해 분석에서 무엇이 빠져 있는지 고려해야 한다.",
+        "bank": [
+          "in order to make better decisions.",
+          "We need to consider",
+          "in our analysis",
+          "what is missing"
+        ],
+        "answer": "We need to consider what is missing in our analysis in order to make better decisions."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "Abraham Wald가 기존 분석의 문제를 발견한 핵심 이유는?",
+        "options": [
+          "돌아온 비행기의 손상 부위가 치명적이라고 가정해서",
+          "돌아오지 못한 비행기가 데이터에서 빠져 있다는 점을 고려해서",
+          "모든 비행기의 손상 부위가 같아서",
+          "장갑을 제거해야 한다고 생각해서"
+        ],
+        "answer": 1,
+        "explain": "surviving planes만 조사했고, return하지 못한 planes를 overlook한 것이 문제였다."
+      },
+      "original": {
+        "label": "View & Learn 확인",
+        "question": "survivorship bias에서 피해야 할 분석 오류는?",
+        "answer": "Ignoring the individuals or things that did not succeed or survive.",
+        "explain": "p.130 정의의 핵심."
+      }
+    },
+    {
+      "id": "tb5check",
+      "group": "textbook",
+      "order": 54,
+      "section": "5과 복습",
+      "nav": "5과 종합체크",
+      "density": "누적 복습",
+      "title": "5과 종합 체크",
+      "source": "교과서 5과 p.118~130",
+      "type": "누적 · 혼합 문제",
+      "template": "unitCheck",
+      "checkItems": [
+        {
+          "id": "tb5c1",
+          "kind": "input",
+          "prompt": "p.118 · associate A ______ B",
+          "answer": "with"
+        },
+        {
+          "id": "tb5c2",
+          "kind": "input",
+          "prompt": "p.119 · clear signs of ______",
+          "answer": "polychromy"
+        },
+        {
+          "id": "tb5c3",
+          "kind": "mc",
+          "prompt": "p.119 · Brinkmann이 UV lamp를 개발한 원래 목적은?",
+          "options": [
+            "색 복원",
+            "도구 자국 자세히 조사",
+            "연대 측정",
+            "대리석 구매"
+          ],
+          "answer": 1,
+          "explain": "marks left by tools를 examine하려고 개발했다."
+        },
+        {
+          "id": "tb5c4",
+          "kind": "input",
+          "prompt": "p.120 · White marble was used like a ______.",
+          "answer": "canvas"
+        },
+        {
+          "id": "tb5c5",
+          "kind": "input",
+          "prompt": "p.121 · Much of the paint ______ off.",
+          "answer": "wore"
+        },
+        {
+          "id": "tb5c6",
+          "kind": "mc",
+          "prompt": "p.122 · 흰 대리석 편견 강화의 핵심 연결은?",
+          "options": [
+            "white marble ↔ ideal beauty",
+            "color ↔ inferiority in ancient Greece",
+            "UV lamp ↔ Renaissance",
+            "paint ↔ modern technology"
+          ],
+          "answer": 0,
+          "explain": "artists and scholars associated undecorated white marble with ideal beauty."
+        },
+        {
+          "id": "tb5c7",
+          "kind": "input",
+          "prompt": "p.123 · The bias became deeply ______.",
+          "answer": "rooted"
+        },
+        {
+          "id": "tb5c8",
+          "kind": "mc",
+          "prompt": "p.123 · 반대 증거가 있어도 편견이 유지됐음을 보여 주는 사례는?",
+          "options": [
+            "색 흔적 즉시 수용",
+            "복원품 찬사",
+            "색 흔적 무시·색 제거",
+            "연구 중단"
+          ],
+          "answer": 2,
+          "explain": "traces were ignored and some colors were wiped off."
+        },
+        {
+          "id": "tb5c9",
+          "kind": "input",
+          "prompt": "p.124 · The fact is now widely ______.",
+          "answer": "acknowledged"
+        },
+        {
+          "id": "tb5c10",
+          "kind": "input",
+          "prompt": "p.125 · transform our eyes ______ objective tools",
+          "answer": "into"
+        },
+        {
+          "id": "tb5c11",
+          "kind": "mc",
+          "prompt": "p.126 · 올바른 시간 흐름은?",
+          "options": [
+            "현대 수정→고대 채색→르네상스",
+            "고대 채색→색 소실→흰색 미학→편견 고착→현대 수정",
+            "르네상스→고대→현대",
+            "현대→르네상스→고대"
+          ],
+          "answer": 1,
+          "explain": "p.126 요약 순서."
+        },
+        {
+          "id": "tb5c12",
+          "kind": "input",
+          "prompt": "p.128 · accurate → ______",
+          "answer": "inaccurate"
+        },
+        {
+          "id": "tb5c13",
+          "kind": "input",
+          "prompt": "p.129 · the paint ______ which ...",
+          "answer": "with"
+        },
+        {
+          "id": "tb5c14",
+          "kind": "input",
+          "prompt": "p.130 · consider what is ______ in our analysis",
+          "answer": "missing"
+        },
+        {
+          "id": "tb5c15",
+          "kind": "mc",
+          "prompt": "5과 전체 메시지는?",
+          "options": [
+            "익숙한 인상은 항상 사실이다.",
+            "오래된 믿음도 증거로 재검토해야 한다.",
+            "흰 조각이 채색 조각보다 객관적으로 아름답다.",
+            "편견은 과학으로 수정할 수 없다."
+          ],
+          "answer": 1,
+          "explain": "객관적 증거와 연구로 고정관념·편견을 검토하는 것이 결론."
         }
       ]
     }
