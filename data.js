@@ -91,10 +91,10 @@ window.WORKBOOK_DATA = {
       "rebuild": {
         "ko": "어떤 투표 제도도 완벽하지 않으며 다른 제도보다 명백히 우월하지도 않다.",
         "bank": [
-          "No voting system",
-          "is flawless",
           "or clearly superior",
-          "to another."
+          "No voting system",
+          "to another.",
+          "is flawless"
         ],
         "answer": "No voting system is flawless or clearly superior to another."
       },
@@ -191,10 +191,10 @@ window.WORKBOOK_DATA = {
       "rebuild": {
         "ko": "투표는 집단 결정을 더 공정하고 효율적으로 만들기 위해 자주 사용된다.",
         "bank": [
-          "Voting",
-          "is often used",
           "to make group decisions",
-          "fairer and more efficient."
+          "Voting",
+          "fairer and more efficient.",
+          "is often used"
         ],
         "answer": "Voting is often used to make group decisions fairer and more efficient."
       },
@@ -297,10 +297,10 @@ window.WORKBOOK_DATA = {
       "rebuild": {
         "ko": "학생회 전체는 서로 다른 방식이 서로 다른 결과를 낼지 알아보고 싶어 했다.",
         "bank": [
-          "The entire council",
-          "was curious",
           "to find out if",
-          "the different methods would yield different results."
+          "The entire council",
+          "the different methods would yield different results.",
+          "was curious"
         ],
         "answer": "The entire council was curious to find out if the different methods would yield different results."
       },
@@ -403,10 +403,10 @@ window.WORKBOOK_DATA = {
       "rebuild": {
         "ko": "각 학생회 구성원은 투표용지를 받고 선택지를 선호 순서대로 적으라는 지시를 받았다.",
         "bank": [
-          "Each of the 20 council members",
-          "was given a voting slip",
           "and instructed",
-          "to write down the options in order of preference."
+          "Each of the 20 council members",
+          "to write down the options in order of preference.",
+          "was given a voting slip"
         ],
         "answer": "Each of the 20 council members was given a voting slip and instructed to write down the options in order of preference."
       },
@@ -515,10 +515,10 @@ window.WORKBOOK_DATA = {
       "rebuild": {
         "ko": "가장 많은 1순위 표를 얻는 선택지가 승리한다.",
         "bank": [
-          "Whichever",
-          "gets the most",
           "first-preference votes",
-          "wins."
+          "Whichever",
+          "wins.",
+          "gets the most"
         ],
         "answer": "Whichever gets the most first-preference votes wins."
       },
@@ -627,10 +627,10 @@ window.WORKBOOK_DATA = {
       "rebuild": {
         "ko": "A는 탈락했고, 5명의 표는 2순위 선호에 따라 재분배되었다.",
         "bank": [
-          "Option A was eliminated,",
-          "and the 5 council members’ votes",
           "were redistributed",
-          "based on their second preferences."
+          "Option A was eliminated,",
+          "based on their second preferences.",
+          "and the 5 council members’ votes"
         ],
         "answer": "Option A was eliminated, and the 5 council members’ votes were redistributed based on their second preferences."
       },
@@ -739,10 +739,10 @@ window.WORKBOOK_DATA = {
       "rebuild": {
         "ko": "A는 다른 두 선택지 모두보다 선호되었기 때문에 승자로 간주될 것이다.",
         "bank": [
-          "As option A",
-          "was preferred to",
           "both of the other options,",
-          "it would be considered the winner."
+          "As option A",
+          "it would be considered the winner.",
+          "was preferred to"
         ],
         "answer": "As option A was preferred to both of the other options, it would be considered the winner."
       },
@@ -851,10 +851,10 @@ window.WORKBOOK_DATA = {
       "rebuild": {
         "ko": "이 노력은 의사결정을 어렵게 만들기 위해서가 아니라 더 나은 결정을 하도록 돕기 위해 설계되었다.",
         "bank": [
-          "All of these efforts are designed",
-          "not to make decision-making difficult and inefficient,",
           "but to help us",
-          "make better decisions as a society."
+          "All of these efforts are designed",
+          "make better decisions as a society.",
+          "not to make decision-making difficult and inefficient,"
         ],
         "answer": "All of these efforts are designed not to make decision-making difficult and inefficient, but to help us make better decisions as a society."
       },
@@ -957,10 +957,10 @@ window.WORKBOOK_DATA = {
       "rebuild": {
         "ko": "그 캠페인은 기후 변화의 위험에 대한 인식을 높이기 위해 조직되었다.",
         "bank": [
-          "The campaign was organized",
-          "to raise awareness",
           "of the hazards",
-          "of climate change."
+          "The campaign was organized",
+          "of climate change.",
+          "to raise awareness"
         ],
         "answer": "The campaign was organized to raise awareness of the hazards of climate change."
       },
@@ -1063,10 +1063,10 @@ window.WORKBOOK_DATA = {
       "rebuild": {
         "ko": "어느 것을 선택하든 장단점이 있을 것이다.",
         "bank": [
-          "Whichever",
-          "we choose",
           "will have",
-          "pros and cons."
+          "Whichever",
+          "pros and cons.",
+          "we choose"
         ],
         "answer": "Whichever we choose will have pros and cons."
       },
@@ -1169,10 +1169,10 @@ window.WORKBOOK_DATA = {
       "rebuild": {
         "ko": "매몰비용이 당신의 결정에 영향을 미치게 두지 마라.",
         "bank": [
-          "Don’t let",
-          "sunk costs",
           "affect",
-          "your decisions."
+          "Don’t let",
+          "your decisions.",
+          "sunk costs"
         ],
         "answer": "Don’t let sunk costs affect your decisions."
       },
@@ -1275,10 +1275,10 @@ window.WORKBOOK_DATA = {
       "rebuild": {
         "ko": "궁극적으로 선택은 개인의 선호에 달려 있다.",
         "bank": [
-          "Ultimately,",
-          "the choice",
           "depends on",
-          "your individual preferences."
+          "Ultimately,",
+          "your individual preferences.",
+          "the choice"
         ],
         "answer": "Ultimately, the choice depends on your individual preferences."
       },
@@ -1375,10 +1375,10 @@ window.WORKBOOK_DATA = {
       "rebuild": {
         "ko": "선택지가 너무 많으면 실제로 결정을 내리기가 더 어려워진다.",
         "bank": [
-          "Having too many choices",
-          "actually makes it",
           "harder",
-          "to make a decision."
+          "Having too many choices",
+          "to make a decision.",
+          "actually makes it"
         ],
         "answer": "Having too many choices actually makes it harder to make a decision."
       },
@@ -1521,117 +1521,6 @@ window.WORKBOOK_DATA = {
           "explain": "p.73 결론과 p.82 선택의 역설까지 모두 ‘선택 과정 이해’로 연결된다."
         }
       ]
-    },
-    {
-      "id": "tb4",
-      "group": "textbook",
-      "order": 20,
-      "nav": "교과서 4과",
-      "title": "Breaking the Cycle: Solutions to E-waste",
-      "source": "교과서 4과 p.93~99, Focus on Language p.102~103",
-      "type": "문제-해결 구조 · 어법 · 서술형",
-      "flow": [
-        "e-waste 증가와 위험",
-        "수리권 · 수리가능성 지수 · Repair Café",
-        "수리 확대 → 폐기 감소 → 지속가능성"
-      ],
-      "oneLine": "전자폐기물을 줄이려면 버리기보다 ‘수리하기 쉬운 환경’을 제도·정보·공동체 차원에서 만들어야 한다.",
-      "keyExpr": "repair access → easier repair → less e-waste",
-      "quotes": [
-        {
-          "src": "p.94",
-          "en": "Experts predict that by 2030, the amount of e-waste generated annually will have doubled in just 16 years.",
-          "ko": "전문가들은 2030년까지 연간 전자폐기물 발생량이 불과 16년 만에 두 배가 될 것으로 예측한다.",
-          "why": "문제의 규모와 미래완료가 함께 드러난다."
-        },
-        {
-          "src": "p.95",
-          "en": "Finally, it demands that manufacturers design devices in a way that makes repairs as easy as possible.",
-          "ko": "마지막으로 수리권 운동은 제조업체가 수리를 가능한 한 쉽게 할 수 있도록 기기를 설계할 것을 요구한다.",
-          "why": "요구 동사 + that절 동사원형의 핵심 문장."
-        },
-        {
-          "src": "p.98",
-          "en": "By providing spaces where people can learn, Repair Cafés enable individuals to maintain their devices and extend their life spans.",
-          "ko": "Repair Café는 사람들이 배울 수 있는 공간을 제공함으로써 개인이 기기를 유지하고 수명을 연장하도록 한다.",
-          "why": "by V-ing, 관계부사 where, enable A to V가 함께 나온다."
-        }
-      ],
-      "grammar": {
-        "title": "요구·제안 동사 + that S (should) V / enable A to V",
-        "body": "demand, require, recommend 같은 요구·제안 동사 뒤 that절에서는 동사원형이 쓰인다. enable A to V는 ‘A가 V하도록 가능하게 하다’.",
-        "cue": "p.103 문법 페이지와 p.95·96 본문을 연결해서 반복시키기."
-      },
-      "inputs": [
-        {
-          "id": "tb4-i1",
-          "prompt": "Experts predict that the amount of e-waste will have ______ by 2030.",
-          "answer": "doubled",
-          "hint": "미래완료 핵심"
-        },
-        {
-          "id": "tb4-i2",
-          "prompt": "The movement demands that manufacturers ______ devices to make repairs easier.",
-          "answer": "design",
-          "hint": "demand that S + 동사원형"
-        },
-        {
-          "id": "tb4-i3",
-          "prompt": "Repair Cafés ______ individuals to maintain their devices.",
-          "answer": "enable",
-          "hint": "A to V 구조"
-        }
-      ],
-      "dissect": {
-        "sentence": "Finally, it demands that manufacturers design devices in a way that makes repairs as easy as possible.",
-        "fields": [
-          {
-            "label": "요구 동사",
-            "answer": "demands"
-          },
-          {
-            "label": "that절 주어",
-            "answer": "manufacturers"
-          },
-          {
-            "label": "that절 동사",
-            "answer": "design"
-          },
-          {
-            "label": "관계절 동사",
-            "answer": "makes"
-          }
-        ]
-      },
-      "rebuild": {
-        "ko": "Repair Café는 개인이 기기를 유지하고 수명을 연장할 수 있게 한다.",
-        "bank": [
-          "Repair Cafés",
-          "enable individuals",
-          "to maintain their devices",
-          "and extend their life spans."
-        ],
-        "answer": "Repair Cafés enable individuals to maintain their devices and extend their life spans."
-      },
-      "transform": {
-        "badge": "워크북 변형",
-        "question": "다음 중 세 해결책의 역할을 가장 정확히 구분한 것은?",
-        "options": [
-          "Right-to-Repair는 점수를 표시하고, Repairability Index는 기술자를 연결한다.",
-          "Repairability Index는 구매 전 수리 난이도를 알리고, Repair Café는 수리 기술과 조언을 공유한다.",
-          "Repair Café는 제조사의 설계 의무를 법으로 정하고, Right-to-Repair는 점수를 표시한다.",
-          "세 해결책은 모두 폐기물 재활용률만 높이는 데 초점을 둔다."
-        ],
-        "answer": 1,
-        "explain": "본문에서 지수는 구매 전 수리 가능성을 알려주고, Repair Café는 도구·전문가 조언·기술 공유를 제공한다."
-      },
-      "original": {
-        "label": "교과서 본문 확인",
-        "question": "Repairability Index는 소비자에게 무엇을 알려 주는가?",
-        "answer": "How easily the product can be repaired.",
-        "explain": "p.96 Q6의 직접 확인 문항."
-      },
-      "section": "4·5과"
     },
     {
       "id": "tb5",
@@ -3111,6 +3000,1865 @@ window.WORKBOOK_DATA = {
         "answer": "⑤",
         "explain": "④ 뒤에서 desensitization을 정의한 다음 ‘The next step’이 자연스럽게 이어지고, 마지막 연구 결과가 reduced empathy를 뒷받침한다."
       }
+    },
+    {
+      "id": "tb4map",
+      "group": "textbook",
+      "order": 20,
+      "section": "4과 전체",
+      "nav": "4과 전체맵",
+      "density": "전체 구조",
+      "title": "Lesson 4 · Breaking the Cycle: Solutions to E-waste",
+      "source": "교과서 4과 p.92~108",
+      "type": "전체 논리 · 문제-해결",
+      "flow": [
+        "전자폐기물 증가·유해성",
+        "수리권 · 수리가능성 지수 · Repair Café",
+        "수리 확대·현명한 소비 → 더 적은 e-waste"
+      ],
+      "oneLine": "4과는 전자폐기물을 단순히 재활용하는 글이 아니라, ‘버리기 전에 수리할 수 있는 환경’을 만드는 여러 해결책을 비교하는 글이다.",
+      "keyExpr": "e-waste problem → make repair easier → sustainable future",
+      "quotes": [
+        {
+          "src": "p.94",
+          "en": "Experts predict that by 2030, the amount of e-waste generated annually will have doubled in just 16 years.",
+          "ko": "전문가들은 2030년까지 연간 전자폐기물 발생량이 불과 16년 만에 두 배가 될 것으로 예측한다.",
+          "why": "문제의 심각성을 보여 주는 핵심 수치."
+        },
+        {
+          "src": "p.99",
+          "en": "Even more importantly, it is a future in which people will generate far less e-waste, making our planet a cleaner, healthier place for everyone.",
+          "ko": "더 중요하게는 사람들이 훨씬 적은 전자폐기물을 만들어 지구를 모두에게 더 깨끗하고 건강한 곳으로 만드는 미래다.",
+          "why": "세 해결책이 지향하는 최종 목표."
+        }
+      ],
+      "grammar": {
+        "title": "문제-해결 글의 반복 구조",
+        "body": "본문은 problem을 제시한 뒤 각 해결책이 ‘repair를 쉽게 만드는 방식’을 설명한다. p.95의 demand that S V, p.98의 enable A to V, p.99의 가정법을 연결해서 보면 좋다.",
+        "cue": "학생에게 세 해결책의 ‘누가 / 무엇을 / 어떻게 바꾸는지’를 구분해 말하게 해."
+      },
+      "inputs": [
+        {
+          "id": "tb4map-i1",
+          "prompt": "법과 소비자 권리를 강조하는 해결책: Right-to-______ movement",
+          "answer": "Repair",
+          "hint": "p.95"
+        },
+        {
+          "id": "tb4map-i2",
+          "prompt": "구매 전에 수리 난이도를 보여 주는 제도: repairability ______",
+          "answer": "index",
+          "hint": "p.96"
+        },
+        {
+          "id": "tb4map-i3",
+          "prompt": "전문가와 시민이 함께 고치는 장소: Repair ______",
+          "answer": "Cafés",
+          "hint": "p.98"
+        }
+      ],
+      "dissect": {
+        "sentence": "Efforts are being made to address this problem, most of which are focused on making products easier to repair.",
+        "fields": [
+          {
+            "label": "수동 진행형",
+            "answer": "are being made"
+          },
+          {
+            "label": "관계 표현",
+            "answer": "most of which"
+          },
+          {
+            "label": "전치사 뒤 동명사",
+            "answer": "making"
+          },
+          {
+            "label": "목적격보어",
+            "answer": "easier"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "이 문제를 해결하기 위한 노력 대부분은 제품을 더 쉽게 수리할 수 있게 만드는 데 초점을 둔다.",
+        "bank": [
+          "on making products easier to repair.",
+          "Efforts are being made",
+          "most of which are focused",
+          "to address this problem,"
+        ],
+        "answer": "Efforts are being made to address this problem, most of which are focused on making products easier to repair."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "4과의 세 해결책이 공통적으로 지향하는 것은?",
+        "options": [
+          "전자제품의 사용 기간을 의도적으로 줄이는 것",
+          "소비자가 수리보다 새 제품 구매를 선택하게 하는 것",
+          "제품 수리를 더 가능하고 쉬운 선택으로 만들어 폐기를 줄이는 것",
+          "전자폐기물의 해외 운송을 확대하는 것"
+        ],
+        "answer": 2,
+        "explain": "Right-to-Repair, Repairability Index, Repair Cafés 모두 수리 접근성·정보·기술을 높여 폐기를 줄이는 방향이다."
+      },
+      "original": {
+        "label": "4과 전체 확인",
+        "question": "본문이 소개하는 세 가지 핵심 해결책은?",
+        "answer": "The right-to-repair movement, the repairability index, and Repair Cafés.",
+        "explain": "p.95~98에서 차례로 제시된다."
+      }
+    },
+    {
+      "id": "tb4p92",
+      "group": "textbook",
+      "order": 21,
+      "section": "4과 준비",
+      "nav": "p.92 Before",
+      "density": "보조 경량형",
+      "title": "p.92 · Facts & Vocabulary About E-waste",
+      "source": "교과서 4과 p.92",
+      "type": "배경지식 · 어휘",
+      "flow": [
+        "2019 e-waste 규모 제시",
+        "정책 보유 국가는 약 40%",
+        "hazard · discard · generate · sustainable · appliance"
+      ],
+      "oneLine": "본문에 들어가기 전, e-waste가 ‘크고 빠르게 늘어나는 환경 문제’라는 배경과 핵심 어휘를 잡는다.",
+      "keyExpr": "hazard / discard / generate / sustainable / appliance",
+      "quotes": [
+        {
+          "src": "p.92",
+          "en": "If you lined up all the e-waste produced in 2019, it would stretch for 125 kilometers.",
+          "ko": "2019년에 발생한 전자폐기물을 모두 줄 세우면 125km에 이를 것이다.",
+          "why": "e-waste 규모를 직관적으로 보여 준다."
+        },
+        {
+          "src": "p.92",
+          "en": "Policies to deal with e-waste are imposed only in roughly 40% of the world’s countries.",
+          "ko": "전자폐기물 대응 정책은 세계 국가의 약 40%에서만 시행된다.",
+          "why": "문제 대응의 부족함을 보여 준다."
+        }
+      ],
+      "grammar": {
+        "title": "If + 과거, would V",
+        "body": "If you lined up ..., it would stretch ...는 현실을 가정해 규모를 보여 주는 구조다.",
+        "cue": "수치 자체보다 350 ships / 125 km / roughly 40% 세 이미지를 기억하게 해."
+      },
+      "inputs": [
+        {
+          "id": "tb4p92-i1",
+          "prompt": "Throwing batteries in the trash is a fire ______.",
+          "answer": "hazard",
+          "hint": "위험"
+        },
+        {
+          "id": "tb4p92-i2",
+          "prompt": "We need to ______ renewable energy.",
+          "answer": "generate",
+          "hint": "생산하다"
+        },
+        {
+          "id": "tb4p92-i3",
+          "prompt": "an energy-efficient home ______",
+          "answer": "appliance",
+          "hint": "가전제품"
+        }
+      ],
+      "dissect": {
+        "sentence": "If you lined up all the e-waste produced in 2019, it would stretch for 125 kilometers.",
+        "fields": [
+          {
+            "label": "조건절 동사",
+            "answer": "lined up"
+          },
+          {
+            "label": "수식받는 명사",
+            "answer": "e-waste"
+          },
+          {
+            "label": "과거분사",
+            "answer": "produced"
+          },
+          {
+            "label": "주절 조동사",
+            "answer": "would"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "2019년에 생산된 전자폐기물을 모두 줄 세우면 125km에 이를 것이다.",
+        "bank": [
+          "it would stretch",
+          "If you lined up",
+          "for 125 kilometers.",
+          "all the e-waste produced in 2019,"
+        ],
+        "answer": "If you lined up all the e-waste produced in 2019, it would stretch for 125 kilometers."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "p.92의 배경 정보가 본문에 주는 효과는?",
+        "options": [
+          "e-waste의 경제적 가치를 강조한다.",
+          "문제의 규모와 정책 대응 부족을 미리 보여 준다.",
+          "수리법의 기술적 원리를 설명한다.",
+          "재활용률이 이미 충분함을 보여 준다."
+        ],
+        "answer": 1,
+        "explain": "350 ships, 125 km, 40% 정책 수치가 문제의 규모와 대응 부족을 제시한다."
+      },
+      "original": {
+        "label": "Before You Read 확인",
+        "question": "p.92 Vocabulary Preview에서 ‘버리다, 폐기하다’는?",
+        "answer": "discard",
+        "explain": "hazard, discard, generate, sustainable, contribute, appliance가 제시된다."
+      }
+    },
+    {
+      "id": "tb4p93",
+      "group": "textbook",
+      "order": 22,
+      "section": "4과 본문",
+      "nav": "p.93 Liz",
+      "density": "본문 고밀도",
+      "title": "p.93 · Liz’s Broken Laptop",
+      "source": "교과서 4과 p.93",
+      "type": "문제 상황 · 도입",
+      "flow": [
+        "Liz가 노트북을 떨어뜨려 손상",
+        "수리는 비싸고 오래 걸려 새 제품 구매 고민",
+        "버리면 e-waste 문제에 기여"
+      ],
+      "oneLine": "개인의 ‘수리할까, 버릴까’ 선택을 e-waste라는 사회적 문제로 연결한다.",
+      "keyExpr": "damaged laptop → repair hesitation → e-waste",
+      "quotes": [
+        {
+          "src": "p.93",
+          "en": "On her way to a study group meeting, Liz accidentally dropped her laptop on the street, seriously damaging it.",
+          "ko": "스터디 모임에 가던 중 Liz는 실수로 노트북을 길에 떨어뜨려 심하게 손상시켰다.",
+          "why": "도입 사건 + 분사구문."
+        },
+        {
+          "src": "p.93",
+          "en": "She can have it repaired, but she is hesitating to do so.",
+          "ko": "그녀는 그것을 수리하게 할 수 있지만 그렇게 하기를 망설이고 있다.",
+          "why": "have O p.p.와 핵심 갈등."
+        },
+        {
+          "src": "p.93",
+          "en": "If Liz throws her laptop in the trash, she will be contributing to a serious problem: e-waste.",
+          "ko": "Liz가 노트북을 쓰레기통에 버리면 심각한 문제인 전자폐기물에 기여하게 된다.",
+          "why": "개인의 선택과 주제를 연결."
+        }
+      ],
+      "grammar": {
+        "title": "have O p.p. / 분사구문",
+        "body": "have it repaired는 ‘그것을 수리 맡기다’. seriously damaging it은 앞 사건의 결과를 덧붙이는 분사구문이다.",
+        "cue": "‘새로 사는 게 합리적으로 보임 → 실제로는 최선 아닐 수 있음’의 반전을 잡아."
+      },
+      "inputs": [
+        {
+          "id": "tb4p93-i1",
+          "prompt": "She can have it ______.",
+          "answer": "repaired",
+          "hint": "have + O + p.p."
+        },
+        {
+          "id": "tb4p93-i2",
+          "prompt": "She is ______ to do so.",
+          "answer": "hesitating",
+          "hint": "망설이다"
+        },
+        {
+          "id": "tb4p93-i3",
+          "prompt": "If she throws it away, she will contribute to ______.",
+          "answer": "e-waste",
+          "hint": "주제"
+        }
+      ],
+      "dissect": {
+        "sentence": "On her way to a study group meeting, Liz accidentally dropped her laptop on the street, seriously damaging it.",
+        "fields": [
+          {
+            "label": "주어",
+            "answer": "Liz"
+          },
+          {
+            "label": "동사",
+            "answer": "dropped"
+          },
+          {
+            "label": "목적어",
+            "answer": "her laptop"
+          },
+          {
+            "label": "분사구문",
+            "answer": "seriously damaging it"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "Liz는 실수로 노트북을 길에 떨어뜨려 심하게 손상시켰다.",
+        "bank": [
+          "seriously damaging it.",
+          "Liz accidentally dropped",
+          "On her way to a study group meeting,",
+          "her laptop on the street,"
+        ],
+        "answer": "On her way to a study group meeting, Liz accidentally dropped her laptop on the street, seriously damaging it."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "p.93에서 새 노트북 구매가 ‘더 합리적으로 보일’ 수 있는 이유로 언급되지 않은 것은?",
+        "options": [
+          "수리비가 비쌀 수 있다.",
+          "수리가 오래 걸린다.",
+          "노트북이 약 5년 되었다.",
+          "수리 부품이 법적으로 금지되어 있다."
+        ],
+        "answer": 3,
+        "explain": "법적 부품 금지는 p.93에 없다. 비용·시간·연식이 구매 고민의 이유다."
+      },
+      "original": {
+        "label": "도입 확인",
+        "question": "Liz가 노트북을 그냥 버릴 경우 어떤 문제에 기여하게 되는가?",
+        "answer": "e-waste",
+        "explain": "p.93 마지막 문장이 직접 연결한다."
+      }
+    },
+    {
+      "id": "tb4p94",
+      "group": "textbook",
+      "order": 23,
+      "section": "4과 본문",
+      "nav": "p.94 문제",
+      "density": "본문 고밀도",
+      "title": "p.94 · What Exactly Is E-waste?",
+      "source": "교과서 4과 p.94",
+      "type": "정의 · 통계 · 문제 제기",
+      "flow": [
+        "e-waste 정의와 독성 위험",
+        "2021년 57.4 million metric tons · 2014 대비 37% 증가",
+        "2030년 16년 만에 두 배 예측 → 수리 쉽게 만들기"
+      ],
+      "oneLine": "e-waste는 유해하고 빠르게 증가하므로, 해결의 핵심은 제품을 더 쉽게 수리할 수 있게 만드는 것이다.",
+      "keyExpr": "discarded devices → toxic hazard → rapidly increasing → easier to repair",
+      "quotes": [
+        {
+          "src": "p.94",
+          "en": "The term refers to discarded electronic devices and electrical appliances.",
+          "ko": "이 용어는 버려진 전자기기와 전기 가전제품을 가리킨다.",
+          "why": "e-waste의 직접 정의."
+        },
+        {
+          "src": "p.94",
+          "en": "Experts predict that by 2030, the amount of e-waste generated annually will have doubled in just 16 years.",
+          "ko": "전문가들은 2030년까지 연간 전자폐기물 발생량이 불과 16년 만에 두 배가 될 것으로 예측한다.",
+          "why": "미래 문제 규모 + 미래완료."
+        },
+        {
+          "src": "p.94",
+          "en": "For this reason, efforts are being made to address this problem, most of which are focused on making products easier to repair.",
+          "ko": "이 때문에 문제를 해결하려는 노력이 이루어지고 있으며, 그 대부분은 제품을 더 쉽게 수리하도록 만드는 데 초점을 둔다.",
+          "why": "해결책 세 가지로 넘어가는 핵심 연결."
+        }
+      ],
+      "grammar": {
+        "title": "과거분사 수식 / 미래완료 / most of which",
+        "body": "discarded devices, materials contained, e-waste produced/generated처럼 과거분사가 명사를 꾸민다. will have doubled는 미래 특정 시점까지 완료. most of which는 앞의 efforts를 이어 설명한다.",
+        "cue": "57.4 million / 37% / doubled 세 수치를 ‘현재 규모-증가-미래’로 연결."
+      },
+      "inputs": [
+        {
+          "id": "tb4p94-i1",
+          "prompt": "e-waste refers to ______ electronic devices.",
+          "answer": "discarded",
+          "hint": "버려진"
+        },
+        {
+          "id": "tb4p94-i2",
+          "prompt": "By 2030, the amount will have ______.",
+          "answer": "doubled",
+          "hint": "두 배가 되다"
+        },
+        {
+          "id": "tb4p94-i3",
+          "prompt": "Most efforts focus on making products easier to ______.",
+          "answer": "repair",
+          "hint": "수리"
+        }
+      ],
+      "dissect": {
+        "sentence": "Experts predict that by 2030, the amount of e-waste generated annually will have doubled in just 16 years.",
+        "fields": [
+          {
+            "label": "주절 동사",
+            "answer": "predict"
+          },
+          {
+            "label": "수식하는 과거분사",
+            "answer": "generated"
+          },
+          {
+            "label": "미래완료",
+            "answer": "will have doubled"
+          },
+          {
+            "label": "주어 핵심",
+            "answer": "amount"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "전문가들은 2030년까지 연간 전자폐기물 발생량이 16년 만에 두 배가 될 것으로 예측한다.",
+        "bank": [
+          "will have doubled",
+          "Experts predict that by 2030,",
+          "in just 16 years.",
+          "the amount of e-waste generated annually"
+        ],
+        "answer": "Experts predict that by 2030, the amount of e-waste generated annually will have doubled in just 16 years."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "p.94의 마지막 문장이 이후 본문을 예고하는 방식은?",
+        "options": [
+          "재활용 공장 건설만을 해결책으로 제시한다.",
+          "수리를 더 쉽게 만드는 실제 접근법들을 소개하겠다고 연결한다.",
+          "e-waste 통계를 반박한다.",
+          "새 제품 생산을 늘려야 한다고 결론낸다."
+        ],
+        "answer": 1,
+        "explain": "most efforts가 making products easier to repair에 focused라고 한 뒤 practical approaches를 소개한다."
+      },
+      "original": {
+        "label": "p.94 Q2",
+        "question": "e-waste를 구성하는 제품은 어떤 상태인가?",
+        "answer": "discarded",
+        "explain": "요약문에서 discarded electronic and electrical products로 확인한다."
+      }
+    },
+    {
+      "id": "tb4p95",
+      "group": "textbook",
+      "order": 24,
+      "section": "4과 본문",
+      "nav": "p.95 수리권",
+      "density": "본문 고밀도",
+      "title": "p.95 · Right-to-Repair Movement",
+      "source": "교과서 4과 p.95",
+      "type": "해결책 1 · 권리와 법",
+      "flow": [
+        "기기 수리가 어렵고 제조사 제약 존재",
+        "소유자는 직접 또는 원하는 기술자에게 수리할 권리",
+        "정보·부품·소프트웨어·수리 쉬운 설계를 요구"
+      ],
+      "oneLine": "수리권 운동은 소비자가 ‘어디서, 어떻게 수리할지’ 선택할 수 있도록 법과 제조사의 책임을 바꾸려 한다.",
+      "keyExpr": "right to repair → access to information/parts/software → easier repair",
+      "quotes": [
+        {
+          "src": "p.95",
+          "en": "If you own a product, you have the right to fix it yourself or bring it to a technician of your choice.",
+          "ko": "제품을 소유했다면 직접 고치거나 원하는 기술자에게 가져갈 권리가 있다.",
+          "why": "수리권의 핵심 원칙."
+        },
+        {
+          "src": "p.95",
+          "en": "Third, the practice of preventing consumers from installing custom software on their own devices should be prohibited by law.",
+          "ko": "셋째, 소비자가 자신의 기기에 맞춤형 소프트웨어를 설치하지 못하게 하는 관행은 법으로 금지되어야 한다.",
+          "why": "prevent A from V-ing + 수동태."
+        },
+        {
+          "src": "p.95",
+          "en": "Finally, it demands that manufacturers design devices in a way that makes repairs as easy as possible.",
+          "ko": "마지막으로 제조업체가 수리를 가능한 한 쉽게 만드는 방식으로 기기를 설계할 것을 요구한다.",
+          "why": "p.103 핵심 어법의 본문 예."
+        }
+      ],
+      "grammar": {
+        "title": "demand that S V / prevent A from V-ing",
+        "body": "demand that manufacturers design에서 design은 동사원형. prevent consumers from installing은 ‘소비자가 설치하지 못하게 하다’.",
+        "cue": "네 가지 요구를 ‘정보 / 부품·도구 / 소프트웨어 / 설계’로 말하게 하면 기억이 잘 남아."
+      },
+      "inputs": [
+        {
+          "id": "tb4p95-i1",
+          "prompt": "Consumers have the right to bring a product to a ______ of their choice.",
+          "answer": "technician",
+          "hint": "수리 기술자"
+        },
+        {
+          "id": "tb4p95-i2",
+          "prompt": "prevent consumers ______ installing custom software",
+          "answer": "from",
+          "hint": "prevent A from V-ing"
+        },
+        {
+          "id": "tb4p95-i3",
+          "prompt": "It demands that manufacturers ______ devices.",
+          "answer": "design",
+          "hint": "동사원형"
+        }
+      ],
+      "dissect": {
+        "sentence": "Finally, it demands that manufacturers design devices in a way that makes repairs as easy as possible.",
+        "fields": [
+          {
+            "label": "요구 동사",
+            "answer": "demands"
+          },
+          {
+            "label": "that절 주어",
+            "answer": "manufacturers"
+          },
+          {
+            "label": "that절 동사",
+            "answer": "design"
+          },
+          {
+            "label": "관계절 동사",
+            "answer": "makes"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "수리권 운동은 제조업체가 수리를 가능한 한 쉽게 만드는 방식으로 기기를 설계할 것을 요구한다.",
+        "bank": [
+          "design devices in a way",
+          "Finally, it demands",
+          "that makes repairs as easy as possible.",
+          "that manufacturers"
+        ],
+        "answer": "Finally, it demands that manufacturers design devices in a way that makes repairs as easy as possible."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "다음 중 p.95의 수리권 운동 요구와 일치하지 않는 것은?",
+        "options": [
+          "제품 정보 공개",
+          "제3자가 부품과 도구를 구할 수 있게 함",
+          "소비자의 맞춤형 소프트웨어 설치를 막음",
+          "기기를 가능한 한 수리하기 쉽게 설계"
+        ],
+        "answer": 2,
+        "explain": "소비자의 설치를 ‘막는 관행’을 법으로 금지해야 한다고 한다."
+      },
+      "original": {
+        "label": "p.95 Q4",
+        "question": "수리권 법안의 핵심은 무엇인가?",
+        "answer": "If you own a product, you have the right to fix it yourself or bring it to a technician of your choice.",
+        "explain": "p.95 Q4의 교과서 답이 본문 문장을 그대로 요약한다."
+      }
+    },
+    {
+      "id": "tb4p96",
+      "group": "textbook",
+      "order": 25,
+      "section": "4과 본문",
+      "nav": "p.96 지수",
+      "density": "본문 고밀도",
+      "title": "p.96 · Repairability Index",
+      "source": "교과서 4과 p.96",
+      "type": "해결책 2 · 제도 구조",
+      "flow": [
+        "프랑스 2021년 5개 제품군에 지수 의무화",
+        "0~10점 + 색상으로 구매 전 수리 용이성 제시",
+        "정보·분해 난이도·부품 가격 등을 반영"
+      ],
+      "oneLine": "수리가능성 지수는 소비자가 구매 전에 ‘이 제품이 얼마나 쉽게 수리되는지’를 숫자와 색으로 알게 한다.",
+      "keyExpr": "0–10 + color code → repair information before purchase",
+      "quotes": [
+        {
+          "src": "p.96",
+          "en": "In January 2021, the French government passed a bill that requires that every manufacturer include a “repairability index” on five categories of electronic devices and electrical appliances.",
+          "ko": "2021년 1월 프랑스 정부는 모든 제조사가 다섯 범주의 전자기기·가전에 수리가능성 지수를 표시하도록 요구하는 법안을 통과시켰다.",
+          "why": "제도의 도입과 require that S V."
+        },
+        {
+          "src": "p.96",
+          "en": "Using a score ranging from 0 to 10, as well as a color-coded system, the index lets consumers see how easily the product can be repaired before they purchase it.",
+          "ko": "0~10점과 색상 체계를 사용해 소비자는 구매 전 제품이 얼마나 쉽게 수리되는지 알 수 있다.",
+          "why": "지수의 기능."
+        },
+        {
+          "src": "p.96",
+          "en": "A low number on a bright red label means that repairing the product will be difficult, whereas a high number on a green label indicates that the product is easy to repair.",
+          "ko": "빨간 라벨의 낮은 숫자는 수리가 어렵다는 뜻이고, 초록 라벨의 높은 숫자는 수리가 쉽다는 뜻이다.",
+          "why": "색상·점수 해석."
+        }
+      ],
+      "grammar": {
+        "title": "require that S V / let O V / whereas",
+        "body": "requires that every manufacturer include에서 include는 원형. lets consumers see에서 let + O + 동사원형. whereas는 두 대상을 대조한다.",
+        "cue": "red-low-difficult / green-high-easy를 세트로 암기."
+      },
+      "inputs": [
+        {
+          "id": "tb4p96-i1",
+          "prompt": "The score ranges from 0 to ______.",
+          "answer": "10",
+          "hint": "지수 범위"
+        },
+        {
+          "id": "tb4p96-i2",
+          "prompt": "The index lets consumers ______ how easily a product can be repaired.",
+          "answer": "see",
+          "hint": "let O V"
+        },
+        {
+          "id": "tb4p96-i3",
+          "prompt": "A high number on a ______ label means easier repair.",
+          "answer": "green",
+          "hint": "색상"
+        }
+      ],
+      "dissect": {
+        "sentence": "The index lets consumers see how easily the product can be repaired before they purchase it.",
+        "fields": [
+          {
+            "label": "사역동사",
+            "answer": "lets"
+          },
+          {
+            "label": "목적어",
+            "answer": "consumers"
+          },
+          {
+            "label": "목적격보어 동사",
+            "answer": "see"
+          },
+          {
+            "label": "간접의문문 핵심",
+            "answer": "how easily"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "이 지수는 소비자가 구매 전에 제품이 얼마나 쉽게 수리되는지 알게 한다.",
+        "bank": [
+          "before they purchase it.",
+          "The index lets consumers",
+          "how easily the product can be repaired",
+          "see"
+        ],
+        "answer": "The index lets consumers see how easily the product can be repaired before they purchase it."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "다음 중 repairability index의 평가 요소로 p.96에 언급되지 않은 것은?",
+        "options": [
+          "수리 정보의 이용 가능성",
+          "분해의 용이성",
+          "예비 부품의 가격",
+          "제품의 광고비"
+        ],
+        "answer": 3,
+        "explain": "repair information, ease of disassembly, price of spare parts가 제시된다."
+      },
+      "original": {
+        "label": "p.96 Q6",
+        "question": "수리가능성 지수는 소비자에게 무엇을 알려 주는가?",
+        "answer": "It tells consumers how easily the product can be repaired.",
+        "explain": "교과서 Q6의 직접 답."
+      }
+    },
+    {
+      "id": "tb4p97",
+      "group": "textbook",
+      "order": 26,
+      "section": "4과 본문",
+      "nav": "p.97 효과",
+      "density": "본문 고밀도",
+      "title": "p.97 · Why the Index Matters",
+      "source": "교과서 4과 p.97",
+      "type": "효과 · 확산",
+      "flow": [
+        "소비자가 informed decision 가능",
+        "제조사가 수리 쉬운 제품 만들도록 자극",
+        "프랑스 밖으로 제도 확산 가능"
+      ],
+      "oneLine": "지수는 소비자의 구매 선택과 제조사의 설계 행동을 동시에 바꾸고, 국제적으로 확산될 수 있다.",
+      "keyExpr": "informed consumers + encouraged manufacturers → sustainable transition",
+      "quotes": [
+        {
+          "src": "p.97",
+          "en": "First, it allows consumers to make informed decisions when purchasing new devices and appliances.",
+          "ko": "첫째, 새 기기와 가전을 살 때 소비자가 정보에 근거한 결정을 내리게 한다.",
+          "why": "효과 1."
+        },
+        {
+          "src": "p.97",
+          "en": "Secondly, it encourages manufacturers to make their products easier to repair.",
+          "ko": "둘째, 제조업체가 제품을 더 쉽게 수리할 수 있게 만들도록 장려한다.",
+          "why": "효과 2."
+        },
+        {
+          "src": "p.97",
+          "en": "If the index is successful, we can anticipate seeing more countries around the world following France’s innovative lead.",
+          "ko": "지수가 성공한다면 더 많은 나라가 프랑스의 혁신적 선례를 따를 것으로 예상할 수 있다.",
+          "why": "국제 확산 전망."
+        }
+      ],
+      "grammar": {
+        "title": "allow/encourage O to V / anticipate V-ing",
+        "body": "allows consumers to make, encourages manufacturers to make. anticipate는 여기서 seeing을 목적어로 취한다.",
+        "cue": "효과를 ‘소비자 변화 / 제조사 변화 / 국가 확산’ 세 층으로 나눠."
+      },
+      "inputs": [
+        {
+          "id": "tb4p97-i1",
+          "prompt": "make ______ decisions",
+          "answer": "informed",
+          "hint": "정보에 근거한"
+        },
+        {
+          "id": "tb4p97-i2",
+          "prompt": "It ______ manufacturers to make products easier to repair.",
+          "answer": "encourages",
+          "hint": "장려한다"
+        },
+        {
+          "id": "tb4p97-i3",
+          "prompt": "We can anticipate ______ more countries follow France.",
+          "answer": "seeing",
+          "hint": "anticipate + V-ing"
+        }
+      ],
+      "dissect": {
+        "sentence": "It encourages manufacturers to make their products easier to repair.",
+        "fields": [
+          {
+            "label": "동사",
+            "answer": "encourages"
+          },
+          {
+            "label": "목적어",
+            "answer": "manufacturers"
+          },
+          {
+            "label": "to부정사 동사",
+            "answer": "make"
+          },
+          {
+            "label": "목적격보어",
+            "answer": "easier"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "이 지수는 제조업체가 제품을 더 쉽게 수리할 수 있게 만들도록 장려한다.",
+        "bank": [
+          "their products",
+          "It encourages manufacturers",
+          "easier to repair.",
+          "to make"
+        ],
+        "answer": "It encourages manufacturers to make their products easier to repair."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "p.97에서 지수가 지속가능성에 기여하는 직접 경로로 가장 적절한 것은?",
+        "options": [
+          "수리하기 어려운 제품 증가 → 매립 증가",
+          "소비자 정보 향상·제조사 개선 → 매립되는 제품 감소",
+          "제품 가격 상승 → 소비 감소만 유도",
+          "프랑스 시장 폐쇄 → 수입 감소"
+        ],
+        "answer": 1,
+        "explain": "소비자 결정과 제조사 설계를 개선해 landfill로 가는 전자제품을 줄이는 논리다."
+      },
+      "original": {
+        "label": "p.97 Q7",
+        "question": "repairability index가 e-waste 문제 해결에 어떻게 도움을 주는가?",
+        "answer": "It helps consumers make informed decisions and encourages manufacturers to make products easier to repair.",
+        "explain": "p.97 Q7 답의 핵심 두 효과."
+      }
+    },
+    {
+      "id": "tb4p98",
+      "group": "textbook",
+      "order": 27,
+      "section": "4과 본문",
+      "nav": "p.98 Repair Café",
+      "density": "본문 고밀도",
+      "title": "p.98 · Repair Cafés: It Takes a Community",
+      "source": "교과서 4과 p.98",
+      "type": "해결책 3 · 공동체",
+      "flow": [
+        "도구·재료·조언이 있으면 소비자 스스로 수리 가능",
+        "무료 공간 + 자원봉사 전문가",
+        "수리 기술 공유·기기 수명 연장·지속가능한 관점"
+      ],
+      "oneLine": "Repair Café는 ‘수리할 권리’나 ‘정보 표시’를 넘어 사람들이 실제로 배우고 함께 고치게 한다.",
+      "keyExpr": "tools + volunteer advice + shared skills → longer device life",
+      "quotes": [
+        {
+          "src": "p.98",
+          "en": "They are free meeting places where people can gather together and fix their broken devices.",
+          "ko": "그곳은 사람들이 모여 고장 난 기기를 고칠 수 있는 무료 모임 장소다.",
+          "why": "Repair Café 정의."
+        },
+        {
+          "src": "p.98",
+          "en": "They continue to grow in popularity, with more and more people signing up to volunteer.",
+          "ko": "점점 더 많은 사람들이 자원봉사에 참여하며 인기가 계속 높아지고 있다.",
+          "why": "with + O + V-ing."
+        },
+        {
+          "src": "p.98",
+          "en": "By providing spaces where people can learn, Repair Cafés enable individuals to maintain their devices and extend their life spans.",
+          "ko": "사람들이 배울 공간을 제공함으로써 개인이 기기를 관리하고 수명을 늘릴 수 있게 한다.",
+          "why": "by V-ing + enable A to V."
+        }
+      ],
+      "grammar": {
+        "title": "where 관계부사 / with O V-ing / enable A to V",
+        "body": "places where people can gather, with more people signing up, enable individuals to maintain...를 묶어서 본다.",
+        "cue": "Repair Café의 효과를 ‘고침 / 배움 / 공유 / 수명 연장’으로 반복."
+      },
+      "inputs": [
+        {
+          "id": "tb4p98-i1",
+          "prompt": "The cafés are staffed by ______ experts.",
+          "answer": "volunteer",
+          "hint": "자원봉사"
+        },
+        {
+          "id": "tb4p98-i2",
+          "prompt": "with more and more people ______ up to volunteer",
+          "answer": "signing",
+          "hint": "with + O + V-ing"
+        },
+        {
+          "id": "tb4p98-i3",
+          "prompt": "Repair Cafés ______ individuals to maintain their devices.",
+          "answer": "enable",
+          "hint": "enable A to V"
+        }
+      ],
+      "dissect": {
+        "sentence": "By providing spaces where people can learn, Repair Cafés enable individuals to maintain their devices and extend their life spans.",
+        "fields": [
+          {
+            "label": "전치사 뒤 동명사",
+            "answer": "providing"
+          },
+          {
+            "label": "관계부사",
+            "answer": "where"
+          },
+          {
+            "label": "주절 동사",
+            "answer": "enable"
+          },
+          {
+            "label": "목적어",
+            "answer": "individuals"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "Repair Café는 사람들이 배울 공간을 제공함으로써 개인이 기기를 관리하고 수명을 늘릴 수 있게 한다.",
+        "bank": [
+          "to maintain their devices and extend their life spans.",
+          "By providing spaces where people can learn,",
+          "individuals",
+          "Repair Cafés enable"
+        ],
+        "answer": "By providing spaces where people can learn, Repair Cafés enable individuals to maintain their devices and extend their life spans."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "Repair Café가 다른 두 해결책과 구별되는 특징은?",
+        "options": [
+          "법으로 제조사를 규제한다.",
+          "구매 전 수리 점수를 표시한다.",
+          "사람들이 직접 모여 전문가 조언을 받고 수리 기술을 공유한다.",
+          "새 제품 구입을 보조한다."
+        ],
+        "answer": 2,
+        "explain": "무료 meeting place, volunteer experts, skill sharing이 핵심이다."
+      },
+      "original": {
+        "label": "p.98 Q8",
+        "question": "Repair Cafés에서 사람들은 무엇을 할 수 있는가?",
+        "answer": "They can fix their broken devices and get advice from volunteer experts.",
+        "explain": "p.98 Q8의 빈칸 답 fix/repair, volunteer."
+      }
+    },
+    {
+      "id": "tb4p99",
+      "group": "textbook",
+      "order": 28,
+      "section": "4과 본문",
+      "nav": "p.99 결론",
+      "density": "본문 고밀도",
+      "title": "p.99 · A Repairable Future",
+      "source": "교과서 4과 p.99",
+      "type": "가정 · 결론",
+      "flow": [
+        "Liz의 상황을 ‘수리가 일상인 세계’로 다시 상상",
+        "부품 주문·Repair Café·높은 지수 제품 선택 가능",
+        "함께 노력하면 e-waste가 훨씬 적은 미래 가능"
+      ],
+      "oneLine": "앞의 세 해결책이 실현되면 Liz 같은 개인의 선택지가 넓어지고 e-waste 자체가 줄어든다.",
+      "keyExpr": "repair-friendly world → more options → far less e-waste",
+      "quotes": [
+        {
+          "src": "p.99",
+          "en": "If that were the case, her options wouldn’t be limited to paying for expensive repairs or throwing away her laptop and buying a new one.",
+          "ko": "그렇다면 그녀의 선택지는 비싼 수리비를 내거나 버리고 새로 사는 것에만 제한되지 않을 것이다.",
+          "why": "가정법 과거 + 해결책의 의미."
+        },
+        {
+          "src": "p.99",
+          "en": "Repairing it probably wouldn’t be very hard, as she likely would have purchased a laptop with a high repairability score.",
+          "ko": "아마 높은 수리가능성 점수의 노트북을 샀을 것이므로 수리가 그리 어렵지 않을 것이다.",
+          "why": "지수의 효과를 Liz 사례에 적용."
+        },
+        {
+          "src": "p.99",
+          "en": "In fact, this sustainable world is a future we can all enjoy if we work toward it together.",
+          "ko": "사실 이 지속가능한 세계는 우리가 함께 노력한다면 모두 누릴 수 있는 미래다.",
+          "why": "본문 전체 결론."
+        }
+      ],
+      "grammar": {
+        "title": "가정법 과거 / 관계부사 where·in which",
+        "body": "If that were the case, ... wouldn’t be ...는 현재 사실과 다른 가정. a world where..., a future in which...는 장소·상황을 관계절로 꾸민다.",
+        "cue": "p.93의 ‘버리거나 새로 사기’ 양자택일이 p.99에서 어떻게 넓어졌는지 비교."
+      },
+      "inputs": [
+        {
+          "id": "tb4p99-i1",
+          "prompt": "If that ______ the case, her options wouldn’t be limited.",
+          "answer": "were",
+          "hint": "가정법"
+        },
+        {
+          "id": "tb4p99-i2",
+          "prompt": "a world ______ repairing damaged devices was part of everyday life",
+          "answer": "where",
+          "hint": "관계부사"
+        },
+        {
+          "id": "tb4p99-i3",
+          "prompt": "people will generate far ______ e-waste",
+          "answer": "less",
+          "hint": "훨씬 적은"
+        }
+      ],
+      "dissect": {
+        "sentence": "If that were the case, her options wouldn’t be limited to paying for expensive repairs or throwing away her laptop and buying a new one.",
+        "fields": [
+          {
+            "label": "가정법 동사",
+            "answer": "were"
+          },
+          {
+            "label": "주절 조동사",
+            "answer": "wouldn’t"
+          },
+          {
+            "label": "be limited to 뒤 형태",
+            "answer": "paying"
+          },
+          {
+            "label": "병렬 동명사",
+            "answer": "throwing away"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "그렇다면 그녀의 선택지는 비싼 수리비를 내거나 노트북을 버리고 새것을 사는 데만 제한되지 않을 것이다.",
+        "bank": [
+          "her options wouldn’t be limited",
+          "If that were the case,",
+          "or throwing away her laptop and buying a new one.",
+          "to paying for expensive repairs"
+        ],
+        "answer": "If that were the case, her options wouldn’t be limited to paying for expensive repairs or throwing away her laptop and buying a new one."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "p.99가 p.93의 Liz 사례를 다시 사용하는 이유는?",
+        "options": [
+          "노트북 고장 원인을 새로 설명하려고",
+          "앞서 소개한 해결책들이 개인의 실제 선택을 어떻게 바꿀 수 있는지 보여 주려고",
+          "Repair Café가 실패했음을 보이려고",
+          "새 제품 구매가 항상 최선임을 강조하려고"
+        ],
+        "answer": 1,
+        "explain": "p.93의 제한된 선택을 p.99에서 repair-friendly world의 다양한 선택지로 바꿔 보여 준다."
+      },
+      "original": {
+        "label": "Big Question 연결",
+        "question": "지속적으로 e-waste를 줄이려는 노력이 중요한 이유는?",
+        "answer": "Because it can lead to a future with far less e-waste and a cleaner, healthier planet.",
+        "explain": "p.99 마지막 두 문장이 핵심 근거다."
+      }
+    },
+    {
+      "id": "tb4p100",
+      "group": "textbook",
+      "order": 29,
+      "section": "4과 복습",
+      "nav": "p.100 After",
+      "density": "보조 경량형",
+      "title": "p.100 · Main Text Summary",
+      "source": "교과서 4과 p.100 After You Read",
+      "type": "요약 · 세 해결책 구분",
+      "flow": [
+        "e-waste = discarded devices",
+        "Right-to-Repair = technician/manufacturers",
+        "Index = repaired/colors · Repair Café = advice/sharing"
+      ],
+      "oneLine": "p.100은 세 해결책의 기능을 한눈에 다시 구분하는 페이지다.",
+      "keyExpr": "right-to-repair / repairability index / Repair Cafés",
+      "quotes": [
+        {
+          "src": "p.100",
+          "en": "It refers to discarded electronic devices and electrical appliances.",
+          "ko": "전자폐기물은 버려진 전자기기와 전기 가전을 의미한다.",
+          "why": "핵심 정의 복습."
+        }
+      ],
+      "grammar": {
+        "title": "요약어로 구분하기",
+        "body": "technician·manufacturers는 Right-to-Repair, repaired·colors는 Index, advice·sharing은 Repair Cafés에 연결한다.",
+        "cue": "단어만 보고 어느 해결책인지 즉답 훈련."
+      },
+      "inputs": [
+        {
+          "id": "tb4p100-i1",
+          "prompt": "Right-to-Repair: technician / ______",
+          "answer": "manufacturers",
+          "hint": "제조업체"
+        },
+        {
+          "id": "tb4p100-i2",
+          "prompt": "Repairability Index: repaired / ______",
+          "answer": "colors",
+          "hint": "색"
+        },
+        {
+          "id": "tb4p100-i3",
+          "prompt": "Repair Cafés: advice / ______",
+          "answer": "sharing",
+          "hint": "공유"
+        }
+      ],
+      "dissect": {
+        "sentence": "It refers to discarded electronic devices and electrical appliances.",
+        "fields": [
+          {
+            "label": "주어",
+            "answer": "It"
+          },
+          {
+            "label": "동사",
+            "answer": "refers"
+          },
+          {
+            "label": "전치사",
+            "answer": "to"
+          },
+          {
+            "label": "과거분사 수식",
+            "answer": "discarded"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "전자폐기물은 버려진 전자기기와 전기 가전을 가리킨다.",
+        "bank": [
+          "electronic devices and electrical appliances.",
+          "It refers",
+          "discarded",
+          "to"
+        ],
+        "answer": "It refers to discarded electronic devices and electrical appliances."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "다음 연결 중 맞는 것은?",
+        "options": [
+          "Repair Cafés — color-coded score",
+          "Repairability Index — volunteer experts",
+          "Right-to-Repair — technician of your choice",
+          "Repair Cafés — legislation"
+        ],
+        "answer": 2,
+        "explain": "technician of your choice는 수리권 운동의 핵심 원칙."
+      },
+      "original": {
+        "label": "p.100 Check Out the Details",
+        "question": "‘수리권 운동은 소비자의 custom software 설치를 불법으로 해야 한다고 주장한다’는 T/F?",
+        "answer": "F",
+        "explain": "반대로 그런 설치를 막는 관행이 법으로 금지되어야 한다고 한다."
+      }
+    },
+    {
+      "id": "tb4p101",
+      "group": "textbook",
+      "order": 30,
+      "section": "4과 복습",
+      "nav": "p.101 Extension",
+      "density": "보조 경량형",
+      "title": "p.101 · Extending the E-waste Solutions",
+      "source": "교과서 4과 p.101 Extension",
+      "type": "적용 · 추가 해결책",
+      "flow": [
+        "세 해결책 중 효과적인 것 평가",
+        "E-waste microfactories",
+        "복원 전자제품 판매·manufacturer take-back 등 확장"
+      ],
+      "oneLine": "본문의 해결 원리를 다른 방식에도 적용해 ‘수명 연장·자원 회수·재사용’이라는 공통점을 찾는다.",
+      "keyExpr": "repair / restore / reuse / recover resources",
+      "quotes": [
+        {
+          "src": "p.101",
+          "en": "This will reduce e-waste by enabling people to fix their broken devices more cheaply and easily.",
+          "ko": "이는 사람들이 고장 난 기기를 더 싸고 쉽게 고칠 수 있게 해 전자폐기물을 줄일 것이다.",
+          "why": "enable A to V + by V-ing."
+        },
+        {
+          "src": "p.101",
+          "en": "It extends the life span of devices that would otherwise end up in landfills and conserves resources.",
+          "ko": "그렇지 않으면 매립될 기기의 수명을 연장하고 자원을 보존한다.",
+          "why": "복원 제품의 장점."
+        }
+      ],
+      "grammar": {
+        "title": "by V-ing / enable A to V / otherwise",
+        "body": "reduce e-waste by enabling..., enable people to fix..., devices that would otherwise end up... 구조를 짧게 확인한다.",
+        "cue": "새 해결책도 결국 ‘폐기 전에 가치 회복’인지 물어봐."
+      },
+      "inputs": [
+        {
+          "id": "tb4p101-i1",
+          "prompt": "reduce e-waste by ______ people to fix devices",
+          "answer": "enabling",
+          "hint": "by + V-ing"
+        },
+        {
+          "id": "tb4p101-i2",
+          "prompt": "It extends the life ______ of devices.",
+          "answer": "span",
+          "hint": "수명"
+        }
+      ],
+      "dissect": {
+        "sentence": "This will reduce e-waste by enabling people to fix their broken devices more cheaply and easily.",
+        "fields": [
+          {
+            "label": "전치사",
+            "answer": "by"
+          },
+          {
+            "label": "동명사",
+            "answer": "enabling"
+          },
+          {
+            "label": "enable의 목적어",
+            "answer": "people"
+          },
+          {
+            "label": "to부정사 동사",
+            "answer": "fix"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "이는 사람들이 고장 난 기기를 더 싸고 쉽게 고치게 해 전자폐기물을 줄일 것이다.",
+        "bank": [
+          "people to fix their broken devices",
+          "This will reduce e-waste",
+          "more cheaply and easily.",
+          "by enabling"
+        ],
+        "answer": "This will reduce e-waste by enabling people to fix their broken devices more cheaply and easily."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "p.101의 추가 해결책들이 본문 세 해결책과 공유하는 원리는?",
+        "options": [
+          "제품을 더 빨리 폐기한다.",
+          "기기의 가치나 수명을 회복해 폐기를 줄인다.",
+          "새 제품만 사용하게 한다.",
+          "수리 정보 공개를 금지한다."
+        ],
+        "answer": 1,
+        "explain": "microfactories, restored devices, take-back 모두 자원 회수·수명 연장·재사용으로 e-waste를 줄인다."
+      },
+      "original": {
+        "label": "Extension 확인",
+        "question": "Website for Restored Electronic Devices의 장점 하나는?",
+        "answer": "It extends the life span of devices.",
+        "explain": "p.101 sample의 benefits에 직접 제시된다."
+      }
+    },
+    {
+      "id": "tb4p102",
+      "group": "textbook",
+      "order": 31,
+      "section": "4과 언어",
+      "nav": "p.102 어휘",
+      "density": "보조 경량형",
+      "title": "p.102 · Word & Collocation Building",
+      "source": "교과서 4과 p.102 Focus on Language",
+      "type": "접사 · 연어",
+      "flow": [
+        "en-: encourage/entitle/enforce/endanger",
+        "-ive: innovative/reflective/supportive/cooperative",
+        "address / promote 연어"
+      ],
+      "oneLine": "품사와 접사를 외우는 동시에 address the problem, promote legislation 같은 시험형 연어를 묶는다.",
+      "keyExpr": "enforce / supportive / address the need / promote legislation",
+      "quotes": [
+        {
+          "src": "p.102",
+          "en": "A group of activists is working to promote legislation that regulates air pollution.",
+          "ko": "활동가 집단은 대기 오염을 규제하는 법안을 촉진하기 위해 일하고 있다.",
+          "why": "promote legislation 연어."
+        },
+        {
+          "src": "p.102",
+          "en": "Regular exercise and a balanced diet can promote health and overall well-being.",
+          "ko": "규칙적 운동과 균형 잡힌 식사는 건강과 전반적 웰빙을 증진할 수 있다.",
+          "why": "promote + health."
+        }
+      ],
+      "grammar": {
+        "title": "접사 en- / -ive와 연어",
+        "body": "en-는 명사·형용사를 동사로 만드는 경우가 있고, -ive는 성질을 나타내는 형용사를 만든다. address와 promote는 뒤에 오는 명사를 세트로 기억.",
+        "cue": "innovate→innovative / support→supportive도 같이 왕복."
+      },
+      "inputs": [
+        {
+          "id": "tb4p102-i1",
+          "prompt": "support → ______",
+          "answer": "supportive",
+          "hint": "-ive"
+        },
+        {
+          "id": "tb4p102-i2",
+          "prompt": "promote ______ that regulates air pollution",
+          "answer": "legislation",
+          "hint": "법안"
+        },
+        {
+          "id": "tb4p102-i3",
+          "prompt": "address the ______ for more public parks",
+          "answer": "need",
+          "hint": "필요"
+        }
+      ],
+      "dissect": {
+        "sentence": "A group of activists is working to promote legislation that regulates air pollution.",
+        "fields": [
+          {
+            "label": "주어 핵심",
+            "answer": "group"
+          },
+          {
+            "label": "to부정사 동사",
+            "answer": "promote"
+          },
+          {
+            "label": "관계대명사",
+            "answer": "that"
+          },
+          {
+            "label": "관계절 동사",
+            "answer": "regulates"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "활동가 집단은 대기 오염을 규제하는 법안을 촉진하기 위해 일하고 있다.",
+        "bank": [
+          "legislation that regulates air pollution.",
+          "A group of activists",
+          "to promote",
+          "is working"
+        ],
+        "answer": "A group of activists is working to promote legislation that regulates air pollution."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "다음 연어 연결이 어색한 것은?",
+        "options": [
+          "address the problem",
+          "address the need",
+          "promote health",
+          "promote the problem"
+        ],
+        "answer": 3,
+        "explain": "p.102에서는 address the problem/need/situation, promote legislation/health/products."
+      },
+      "original": {
+        "label": "Focus on Language 확인",
+        "question": "‘지지해 주는’의 형용사는?",
+        "answer": "supportive",
+        "explain": "support + -ive → supportive."
+      }
+    },
+    {
+      "id": "tb4p103",
+      "group": "textbook",
+      "order": 32,
+      "section": "4과 언어",
+      "nav": "p.103 어법",
+      "density": "보조 경량형",
+      "title": "p.103 · Demand/Require + That & With-construction",
+      "source": "교과서 4과 p.103 Focus on Language",
+      "type": "요구동사 · with 구조",
+      "flow": [
+        "suggest/recommend/demand/require + that S V",
+        "본문 p.95·96의 동사원형 재확인",
+        "with + O + 분사/형용사 상태"
+      ],
+      "oneLine": "p.103의 핵심은 ‘요구·제안 that절의 동사원형’과 ‘with + 목적어 + 상태’ 두 가지다.",
+      "keyExpr": "demand that S V / require that S V / with O p.p.·V-ing",
+      "quotes": [
+        {
+          "src": "p.103",
+          "en": "I recommend that anyone with chronic pain seek professional help from a doctor.",
+          "ko": "만성 통증이 있는 사람은 누구나 의사의 전문적 도움을 구할 것을 권한다.",
+          "why": "recommend that S + 동사원형."
+        },
+        {
+          "src": "p.103",
+          "en": "As the rain poured down, Olivia walked into an old café with her heart beating loudly in her chest.",
+          "ko": "비가 쏟아지는 가운데 Olivia는 가슴 속 심장이 크게 뛰는 채 오래된 카페로 들어갔다.",
+          "why": "with + O + V-ing."
+        }
+      ],
+      "grammar": {
+        "title": "요구·제안 that절 + with O C",
+        "body": "suggest/recommend/demand/require/insist 뒤 that절에서 (should) + 동사원형. with her heart beating / with his arms crossed처럼 목적어 뒤 상태를 붙인다.",
+        "cue": "p.95 design, p.96 include까지 본문으로 다시 되돌아가 확인."
+      },
+      "inputs": [
+        {
+          "id": "tb4p103-i1",
+          "prompt": "They insisted that everyone ______ the meeting.",
+          "answer": "attend",
+          "hint": "동사원형"
+        },
+        {
+          "id": "tb4p103-i2",
+          "prompt": "The bill requires that every manufacturer ______ the index.",
+          "answer": "include",
+          "hint": "p.96"
+        },
+        {
+          "id": "tb4p103-i3",
+          "prompt": "with his arms ______",
+          "answer": "crossed",
+          "hint": "팔짱 낀 채"
+        }
+      ],
+      "dissect": {
+        "sentence": "I recommend that anyone with chronic pain seek professional help from a doctor.",
+        "fields": [
+          {
+            "label": "요구·제안 동사",
+            "answer": "recommend"
+          },
+          {
+            "label": "that절 주어",
+            "answer": "anyone"
+          },
+          {
+            "label": "that절 동사",
+            "answer": "seek"
+          },
+          {
+            "label": "동사 형태",
+            "answer": "동사원형"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "나는 만성 통증이 있는 사람은 누구나 의사의 전문적 도움을 구할 것을 권한다.",
+        "bank": [
+          "seek professional help from a doctor.",
+          "I recommend",
+          "anyone with chronic pain",
+          "that"
+        ],
+        "answer": "I recommend that anyone with chronic pain seek professional help from a doctor."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "어법상 맞는 문장은?",
+        "options": [
+          "The law demands that manufacturers designs devices carefully.",
+          "The law demands that manufacturers design devices carefully.",
+          "The law demands manufacturers designing devices carefully.",
+          "The law demands that manufacturers designed devices carefully."
+        ],
+        "answer": 1,
+        "explain": "demand that S + 동사원형 구조이므로 design."
+      },
+      "original": {
+        "label": "p.103 Practice",
+        "question": "Ryan demanded that Amy ______ for her behavior.",
+        "answer": "apologize",
+        "explain": "demanded that S + 동사원형."
+      }
+    },
+    {
+      "id": "tb4p104105",
+      "group": "textbook",
+      "order": 33,
+      "section": "4과 활동",
+      "nav": "p.104~105 View",
+      "density": "보조 경량형",
+      "title": "p.104~105 · Transformations in Agriculture",
+      "source": "교과서 4과 p.104~105 View & Learn",
+      "type": "지속가능 농업 · floating farm",
+      "flow": [
+        "기후 위기로 농지 감소",
+        "로테르담 floating farm이 도심 물 위에서 식량 생산",
+        "태양광·빗물·근거리 생산 → 탄소 배출 감소"
+      ],
+      "oneLine": "수상 농장은 필요한 곳 가까이에서 자원을 순환하며 생산해 전통 농업의 지속가능한 대안이 된다.",
+      "keyExpr": "floating farm → local production → lower transportation CO₂",
+      "quotes": [
+        {
+          "src": "p.104",
+          "en": "However, floating farms are helping to revolutionize our approach to agriculture by producing fresh food on the water.",
+          "ko": "수상 농장은 물 위에서 신선한 식량을 생산함으로써 농업에 대한 접근 방식을 혁신하고 있다.",
+          "why": "핵심 기능."
+        },
+        {
+          "src": "p.104",
+          "en": "With a floating farm in the heart of the city, food can be produced where it is consumed.",
+          "ko": "도시 중심에 수상 농장이 있으면 식량을 소비되는 곳에서 생산할 수 있다.",
+          "why": "근거리 생산."
+        },
+        {
+          "src": "p.104",
+          "en": "This means that the amount of carbon dioxide produced in the transportation of food is significantly reduced.",
+          "ko": "이는 식품 운송에서 발생하는 이산화탄소의 양이 크게 줄어든다는 뜻이다.",
+          "why": "환경적 결과."
+        }
+      ],
+      "grammar": {
+        "title": "by V-ing / where S V / p.p. 수식",
+        "body": "by producing, where it is consumed, carbon dioxide produced in transportation 구조를 확인한다.",
+        "cue": "3층 구조: top cows / middle processing / bottom storage도 내용 확인용으로 짚어."
+      },
+      "inputs": [
+        {
+          "id": "tb4p104105-i1",
+          "prompt": "The floating farm has ______ layers.",
+          "answer": "three",
+          "hint": "층 수"
+        },
+        {
+          "id": "tb4p104105-i2",
+          "prompt": "Food can be produced ______ it is consumed.",
+          "answer": "where",
+          "hint": "관계부사"
+        },
+        {
+          "id": "tb4p104105-i3",
+          "prompt": "carbon dioxide is significantly ______",
+          "answer": "reduced",
+          "hint": "감소"
+        }
+      ],
+      "dissect": {
+        "sentence": "With a floating farm in the heart of the city, food can be produced where it is consumed.",
+        "fields": [
+          {
+            "label": "with 뒤 명사",
+            "answer": "a floating farm"
+          },
+          {
+            "label": "주절 주어",
+            "answer": "food"
+          },
+          {
+            "label": "수동태",
+            "answer": "can be produced"
+          },
+          {
+            "label": "관계부사",
+            "answer": "where"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "도시 중심에 수상 농장이 있으면 식량을 소비되는 곳에서 생산할 수 있다.",
+        "bank": [
+          "food can be produced",
+          "With a floating farm",
+          "where it is consumed.",
+          "in the heart of the city,"
+        ],
+        "answer": "With a floating farm in the heart of the city, food can be produced where it is consumed."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "floating farm이 지속가능한 대안인 이유로 가장 직접적인 것은?",
+        "options": [
+          "식량을 멀리 운송해야 하기 때문에",
+          "도시 가까이서 생산하고 태양광·빗물을 활용해 운송 관련 탄소를 줄이기 때문에",
+          "전통 농업보다 더 많은 농지를 사용하기 때문에",
+          "모든 제품을 수입하기 때문에"
+        ],
+        "answer": 1,
+        "explain": "도심 생산, solar panels, collected rainwater, reduced transportation CO₂가 근거다."
+      },
+      "original": {
+        "label": "p.105 While You View",
+        "question": "영상의 주된 내용은?",
+        "answer": "an innovative way of producing food in the city",
+        "explain": "정답 b."
+      }
+    },
+    {
+      "id": "tb4p106107",
+      "group": "textbook",
+      "order": 34,
+      "section": "4과 활동",
+      "nav": "p.106~107 Write",
+      "density": "보조 경량형",
+      "title": "p.106~107 · Analyzing Environmental Issues",
+      "source": "교과서 4과 p.106~107 Write & Share",
+      "type": "그래프 설명 · 비교",
+      "flow": [
+        "그래프 주제 제시",
+        "가장 높고 낮은 수치·비교 표현",
+        "데이터에서 결론 도출"
+      ],
+      "oneLine": "그래프 쓰기는 ‘주제 → 핵심 수치 비교 → 결론’ 세 단계로 정리하면 된다.",
+      "keyExpr": "This graph shows... / had the largest... / results indicate...",
+      "quotes": [
+        {
+          "src": "p.106",
+          "en": "This graph shows how individuals in the EU dealt with digital devices that they no longer used in 2022.",
+          "ko": "이 그래프는 2022년 EU 개인들이 더 이상 사용하지 않는 디지털 기기를 어떻게 처리했는지 보여 준다.",
+          "why": "그래프 주제 문장."
+        },
+        {
+          "src": "p.107",
+          "en": "According to the graph, Europe had the highest recycling rate at 42.5%, which was the only rate above the global average.",
+          "ko": "그래프에 따르면 유럽은 42.5%로 가장 높은 재활용률을 보였고, 이는 세계 평균보다 높은 유일한 비율이었다.",
+          "why": "수치 비교 핵심 예문."
+        }
+      ],
+      "grammar": {
+        "title": "how절 / 최상급 / which 계속적 용법",
+        "body": "shows how S V, the highest/lowest rate, which was...를 그래프 서술 기본틀로 본다.",
+        "cue": "수치를 전부 외우기보다 highest Europe 42.5 / second Asia 11.7 / lowest Africa 0.9 세 개를 중심으로."
+      },
+      "inputs": [
+        {
+          "id": "tb4p106107-i1",
+          "prompt": "Europe had the ______ recycling rate.",
+          "answer": "highest",
+          "hint": "최고"
+        },
+        {
+          "id": "tb4p106107-i2",
+          "prompt": "Asia had the ______ highest rate.",
+          "answer": "second",
+          "hint": "두 번째"
+        },
+        {
+          "id": "tb4p106107-i3",
+          "prompt": "Africa had the ______ recycling rate.",
+          "answer": "lowest",
+          "hint": "최저"
+        }
+      ],
+      "dissect": {
+        "sentence": "According to the graph, Europe had the highest recycling rate at 42.5%, which was the only rate above the global average.",
+        "fields": [
+          {
+            "label": "주어",
+            "answer": "Europe"
+          },
+          {
+            "label": "동사",
+            "answer": "had"
+          },
+          {
+            "label": "최상급",
+            "answer": "the highest"
+          },
+          {
+            "label": "계속적 관계대명사",
+            "answer": "which"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "그래프에 따르면 유럽은 42.5%로 가장 높은 재활용률을 보였다.",
+        "bank": [
+          "at 42.5%.",
+          "Europe had",
+          "According to the graph,",
+          "the highest recycling rate"
+        ],
+        "answer": "According to the graph, Europe had the highest recycling rate at 42.5%."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "그래프 설명 문단의 가장 자연스러운 순서는?",
+        "options": [
+          "결론 → 세부 수치 → 주제",
+          "주제 → 주요 수치 비교 → 데이터에서 얻은 결론",
+          "세부 수치만 나열",
+          "개인 의견 → 주제 생략"
+        ],
+        "answer": 1,
+        "explain": "p.106 Sample Analysis가 Topic → Description → Findings 순서로 표시한다."
+      },
+      "original": {
+        "label": "p.107 Write Your Own",
+        "question": "2019년 가장 낮은 e-waste recycling rate를 보인 지역은?",
+        "answer": "Africa",
+        "explain": "샘플 문장에서 Africa had the lowest recycling rate at 0.9%."
+      }
+    },
+    {
+      "id": "tb4p108",
+      "group": "textbook",
+      "order": 35,
+      "section": "4과 활동",
+      "nav": "p.108 Wrap Up",
+      "density": "보조 경량형",
+      "title": "p.108 · Recycling & Carbon Footprint",
+      "source": "교과서 4과 p.108 Wrap Up",
+      "type": "생활 적용 · 지속가능성",
+      "flow": [
+        "화장품 공병 회수·재활용",
+        "장거리 식품 운송은 CO₂ 증가",
+        "지역 생산 식품 선택 등 일상 행동"
+      ],
+      "oneLine": "지속가능성은 기기 수리뿐 아니라 기업의 회수·재활용과 우리의 소비·이동 선택에도 연결된다.",
+      "keyExpr": "recycling programs / long-distance transport → CO₂ / locally-grown food",
+      "quotes": [
+        {
+          "src": "p.108",
+          "en": "Transporting food over such long distances generates large quantities of carbon dioxide, with air shipment producing almost 50 times more than sea shipment.",
+          "ko": "식품을 장거리 운송하면 많은 이산화탄소가 발생하며 항공 운송은 해상 운송보다 거의 50배 더 많이 발생시킨다.",
+          "why": "장거리 운송의 환경 영향."
+        },
+        {
+          "src": "p.108",
+          "en": "For example, we should try to buy locally-grown produce.",
+          "ko": "예를 들어 우리는 지역에서 재배된 농산물을 사려고 해야 한다.",
+          "why": "일상 행동으로 연결."
+        }
+      ],
+      "grammar": {
+        "title": "동명사 주어 / with O V-ing",
+        "body": "Transporting food...가 주어. with air shipment producing...은 부가 상황을 덧붙인다.",
+        "cue": "기업의 recycling effort와 개인의 carbon footprint 감소를 두 갈래로 정리."
+      },
+      "inputs": [
+        {
+          "id": "tb4p108-i1",
+          "prompt": "Long-distance food transport generates large quantities of carbon ______.",
+          "answer": "dioxide",
+          "hint": "CO₂"
+        },
+        {
+          "id": "tb4p108-i2",
+          "prompt": "We should buy ______-grown produce.",
+          "answer": "locally",
+          "hint": "지역에서 재배된"
+        }
+      ],
+      "dissect": {
+        "sentence": "Transporting food over such long distances generates large quantities of carbon dioxide.",
+        "fields": [
+          {
+            "label": "동명사 주어",
+            "answer": "Transporting food"
+          },
+          {
+            "label": "동사",
+            "answer": "generates"
+          },
+          {
+            "label": "목적어 핵심",
+            "answer": "quantities"
+          },
+          {
+            "label": "of 뒤 물질",
+            "answer": "carbon dioxide"
+          }
+        ]
+      },
+      "rebuild": {
+        "ko": "식품을 장거리 운송하는 것은 많은 양의 이산화탄소를 발생시킨다.",
+        "bank": [
+          "large quantities of carbon dioxide.",
+          "Transporting food",
+          "generates",
+          "over such long distances"
+        ],
+        "answer": "Transporting food over such long distances generates large quantities of carbon dioxide."
+      },
+      "transform": {
+        "badge": "워크북 변형",
+        "question": "p.108의 두 소재를 관통하는 공통 주제는?",
+        "options": [
+          "소비 편의를 위해 폐기물을 늘리는 법",
+          "기업과 개인의 선택을 통해 환경 영향을 줄이는 방법",
+          "장거리 운송의 경제적 장점",
+          "화장품 사용의 위험성"
+        ],
+        "answer": 1,
+        "explain": "공병 recycling program과 local produce 모두 environmental sustainability를 위한 행동이다."
+      },
+      "original": {
+        "label": "p.108 Read and Write",
+        "question": "장거리 식품 운송의 환경적 영향은?",
+        "answer": "It generates large quantities of carbon dioxide.",
+        "explain": "Q1의 교과서 답."
+      }
+    },
+    {
+      "id": "tb4check",
+      "group": "textbook",
+      "order": 36,
+      "section": "4과 복습",
+      "nav": "4과 종합체크",
+      "density": "누적 복습",
+      "title": "4과 종합 체크",
+      "source": "교과서 4과 p.92~108",
+      "type": "누적 · 혼합 문제",
+      "template": "unitCheck",
+      "checkItems": [
+        {
+          "id": "tb4c1",
+          "kind": "input",
+          "prompt": "p.93 · She can have it ______.",
+          "answer": "repaired"
+        },
+        {
+          "id": "tb4c2",
+          "kind": "input",
+          "prompt": "p.94 · By 2030, the amount will have ______.",
+          "answer": "doubled"
+        },
+        {
+          "id": "tb4c3",
+          "kind": "mc",
+          "prompt": "p.95 · 수리권 운동이 금지하려는 것은?",
+          "options": [
+            "소비자의 직접 수리",
+            "원하는 기술자 선택",
+            "소비자의 custom software 설치를 막는 관행",
+            "제품 정보 공개"
+          ],
+          "answer": 2,
+          "explain": "preventing consumers from installing custom software should be prohibited."
+        },
+        {
+          "id": "tb4c4",
+          "kind": "input",
+          "prompt": "p.96 · the repairability ______",
+          "answer": "index"
+        },
+        {
+          "id": "tb4c5",
+          "kind": "mc",
+          "prompt": "p.97 · 지수의 두 직접 효과는?",
+          "options": [
+            "광고 증가·가격 상승",
+            "소비자 informed decisions·제조사 repair-friendly design",
+            "수입 금지·수출 증가",
+            "제품 교체 촉진·매립 증가"
+          ],
+          "answer": 1,
+          "explain": "소비자 선택과 제조사 설계를 동시에 바꾼다."
+        },
+        {
+          "id": "tb4c6",
+          "kind": "input",
+          "prompt": "p.98 · Repair Cafés ______ individuals to maintain devices.",
+          "answer": "enable"
+        },
+        {
+          "id": "tb4c7",
+          "kind": "input",
+          "prompt": "p.99 · If that ______ the case, ...",
+          "answer": "were"
+        },
+        {
+          "id": "tb4c8",
+          "kind": "mc",
+          "prompt": "p.100 · Repair Café와 연결되는 단어는?",
+          "options": [
+            "colors",
+            "technician",
+            "sharing",
+            "manufacturers"
+          ],
+          "answer": 2,
+          "explain": "advice와 sharing이 Repair Cafés 요약 칸에 들어간다."
+        },
+        {
+          "id": "tb4c9",
+          "kind": "input",
+          "prompt": "p.102 · support → ______",
+          "answer": "supportive"
+        },
+        {
+          "id": "tb4c10",
+          "kind": "input",
+          "prompt": "p.103 · The law demands that manufacturers ______ devices.",
+          "answer": "design"
+        },
+        {
+          "id": "tb4c11",
+          "kind": "mc",
+          "prompt": "p.104~105 · floating farm의 장점은?",
+          "options": [
+            "농지 사용을 늘린다.",
+            "도심 생산으로 운송 관련 탄소를 줄일 수 있다.",
+            "빗물을 버린다.",
+            "전기를 전부 화석연료로 공급한다."
+          ],
+          "answer": 1,
+          "explain": "도심 생산·태양광·빗물 활용·운송 CO₂ 감소가 핵심."
+        },
+        {
+          "id": "tb4c12",
+          "kind": "input",
+          "prompt": "p.107 · Europe had the ______ recycling rate.",
+          "answer": "highest"
+        },
+        {
+          "id": "tb4c13",
+          "kind": "input",
+          "prompt": "p.108 · locally-grown ______",
+          "answer": "produce"
+        },
+        {
+          "id": "tb4c14",
+          "kind": "mc",
+          "prompt": "4과 전체 결론은?",
+          "options": [
+            "새 제품 구매가 항상 최선이다.",
+            "수리 접근성·정보·공동체 지원을 높이면 e-waste를 줄일 수 있다.",
+            "재활용만이 유일한 해결책이다.",
+            "수리는 환경과 무관하다."
+          ],
+          "answer": 1,
+          "explain": "세 본문 해결책 모두 repair를 실질적 선택으로 만드는 방향."
+        }
+      ]
     }
   ],
   "comprehensive": [
