@@ -71,9 +71,14 @@
 
   function progressInfo(lesson) {
     const s = lessonState(lesson.id);
+    if (lesson.template === "unitCheck") {
+      const ids = (lesson.checkItems || []).map(q => "unit:"+q.id);
+      const done = ids.filter(k => s[k]?.done).length;
+      return {done,total:ids.length,pct:ids.length ? Math.round(done/ids.length*100) : 0};
+    }
     const ids = [
-      ...lesson.inputs.map(q => "input:"+q.id),
-      ...lesson.dissect.fields.map((_,i) => "dissect:"+i),
+      ...(lesson.inputs || []).map(q => "input:"+q.id),
+      ...((lesson.dissect && lesson.dissect.fields) || []).map((_,i) => "dissect:"+i),
       "rebuild",
       "transform",
       "original"
@@ -88,10 +93,16 @@
       return;
     }
     const lessons = DATA.lessons.filter(x=>x.group===currentGroup).sort((a,b)=>a.order-b.order);
+    let lastSection = null;
     lessonList.innerHTML = lessons.map(l => {
       const p = progressInfo(l);
-      return '<button class="lesson-btn '+(l.id===currentLessonId?'active':'')+'" data-lesson="'+esc(l.id)+'">'+
-        esc(l.nav)+'<span class="mini">'+p.done+' / '+p.total+' · '+p.pct+'%</span></button>';
+      const section = l.section || "";
+      const heading = section && section !== lastSection
+        ? '<div class="lesson-section">'+esc(section)+'</div>'
+        : '';
+      lastSection = section || lastSection;
+      return heading + '<button class="lesson-btn '+(l.id===currentLessonId?'active':'')+'" data-lesson="'+esc(l.id)+'">'+
+        esc(l.nav)+'<span class="mini">'+esc(l.density||"")+(l.density?' · ':'')+p.done+' / '+p.total+' · '+p.pct+'%</span></button>';
     }).join("");
     document.querySelectorAll(".lesson-btn").forEach(btn => {
       btn.addEventListener("click", () => {
@@ -132,6 +143,10 @@
     const lesson = DATA.lessons.find(x=>x.id===currentLessonId);
     if (!lesson) {
       lessonRoot.innerHTML = '<div class="empty">선택된 지문이 없습니다.</div>';
+      return;
+    }
+    if (lesson.template === "unitCheck") {
+      renderUnitCheck(lesson);
       return;
     }
     const p = progressInfo(lesson);
@@ -378,6 +393,131 @@
     const f=document.querySelector("#progressFill");
     if(t) t.textContent=p.done+" / "+p.total+" · "+p.pct+"%";
     if(f) f.style.width=p.pct+"%";
+    renderLessonList();
+  }
+
+  function unitCheckScore(lesson) {
+    const s = lessonState(lesson.id);
+    let done=0, correct=0;
+    (lesson.checkItems || []).forEach(q => {
+      const state=s["unit:"+q.id];
+      if(state?.done){done++; if(state.correct) correct++;}
+    });
+    return {done,correct,total:(lesson.checkItems||[]).length};
+  }
+
+  function renderUnitCheck(lesson) {
+    const p=progressInfo(lesson);
+    const sc=unitCheckScore(lesson);
+    lessonRoot.innerHTML=`
+      <section class="lesson-head">
+        <div class="head-row">
+          <div>
+            <div class="kicker">
+              <span class="pill">${esc(lesson.nav)}</span>
+              <span class="pill source">${esc(lesson.source)}</span>
+              <span class="pill source">${esc(lesson.type)}</span>
+            </div>
+            <h2>${esc(lesson.title)}</h2>
+            <div class="meta">3과 페이지별 학습을 섞어서 다시 확인합니다.</div>
+          </div>
+          <div class="progress-box">
+            <div class="progress-label"><span>진행률</span><b id="progressText">${p.done} / ${p.total} · ${p.pct}%</b></div>
+            <div class="progress-track"><div id="progressFill" class="progress-fill" style="width:${p.pct}%"></div></div>
+          </div>
+        </div>
+      </section>
+      <section class="score-card">
+        <div class="kicker"><span class="pill">3과 누적 복습</span></div>
+        <div class="score-big" id="unitScore">${sc.correct} / ${sc.total}${sc.done<sc.total?' ('+sc.done+' / '+sc.total+' 진행 중)':''}</div>
+        <div class="meta">어휘 · 어법 · 내용 · 구조를 섞었습니다. 각 문제는 답하는 즉시 저장됩니다.</div>
+      </section>
+      <div class="check-wrap">
+        ${(lesson.checkItems||[]).map(q=>unitCheckCard(lesson,q)).join("")}
+      </div>
+    `;
+    bindUnitCheck(lesson);
+  }
+
+  function unitCheckCard(lesson,q) {
+    const s=lessonState(lesson.id);
+    const state=s["unit:"+q.id]||{};
+    if(q.kind==="input"){
+      return `<section class="stage">
+        <div class="qtitle">${esc(q.prompt)}</div>
+        <div class="input-row">
+          <input class="answer-input unit-input" data-id="${esc(q.id)}" value="${esc(state.value||"")}" autocomplete="off">
+          <button class="check-btn unit-input-btn" type="button" data-id="${esc(q.id)}" data-answer="${esc(q.answer)}">확인</button>
+        </div>
+        <div class="feedback ${state.done?'show '+(state.correct?'good':'bad'):''}" data-unit-feedback="${esc(q.id)}">
+          ${state.done?(state.correct?'정답입니다.':'정답: '+esc(q.answer)):''}
+        </div>
+      </section>`;
+    }
+    return `<section class="stage">
+      <div class="qtitle">${esc(q.prompt)}</div>
+      <div class="options">
+        ${q.options.map((o,i)=>{
+          let cls="option";
+          if(state.done&&i===q.answer) cls+=" correct";
+          else if(state.done&&i===state.selected&&state.selected!==q.answer) cls+=" wrong";
+          return '<button class="'+cls+' unit-option" type="button" data-id="'+esc(q.id)+'" data-index="'+i+'" '+(state.done?'disabled':'')+'>'+(i+1)+'. '+esc(o)+'</button>';
+        }).join("")}
+      </div>
+      <div class="explain ${state.done?'show':''}" data-unit-explain="${esc(q.id)}">${esc(q.explain||"")}</div>
+    </section>`;
+  }
+
+  function bindUnitCheck(lesson) {
+    const s=lessonState(lesson.id);
+    document.querySelectorAll(".unit-input").forEach(input=>{
+      input.addEventListener("input",()=>{
+        const key="unit:"+input.dataset.id;
+        s[key]={...(s[key]||{}),value:input.value};
+        saveStore();
+      });
+    });
+    document.querySelectorAll(".unit-input-btn").forEach(btn=>{
+      btn.addEventListener("click",()=>{
+        const id=btn.dataset.id;
+        const input=document.querySelector('.unit-input[data-id="'+CSS.escape(id)+'"]');
+        const correct=isCorrect(input.value,btn.dataset.answer);
+        s["unit:"+id]={value:input.value,correct,done:true};
+        saveStore();
+        const fb=document.querySelector('[data-unit-feedback="'+CSS.escape(id)+'"]');
+        fb.className="feedback show "+(correct?"good":"bad");
+        fb.textContent=correct?"정답입니다.":"정답: "+btn.dataset.answer;
+        updateUnitCheckScore(lesson);
+      });
+    });
+    document.querySelectorAll(".unit-option").forEach(btn=>{
+      btn.addEventListener("click",()=>{
+        const q=lesson.checkItems.find(x=>x.id===btn.dataset.id);
+        const key="unit:"+q.id;
+        if(s[key]?.done) return;
+        const selected=Number(btn.dataset.index);
+        s[key]={selected,correct:selected===q.answer,done:true};
+        saveStore();
+        document.querySelectorAll('.unit-option[data-id="'+CSS.escape(q.id)+'"]').forEach((b,i)=>{
+          b.disabled=true;
+          if(i===q.answer)b.classList.add("correct");
+          else if(i===selected)b.classList.add("wrong");
+        });
+        document.querySelector('[data-unit-explain="'+CSS.escape(q.id)+'"]').classList.add("show");
+        updateUnitCheckScore(lesson);
+      });
+    });
+  }
+
+  function updateUnitCheckScore(lesson) {
+    const sc=unitCheckScore(lesson);
+    const p=progressInfo(lesson);
+    const score=document.querySelector("#unitScore");
+    const textEl=document.querySelector("#progressText");
+    const fill=document.querySelector("#progressFill");
+    if(score) score.textContent=sc.correct+" / "+sc.total+(sc.done<sc.total?" ("+sc.done+" / "+sc.total+" 진행 중)":"");
+    if(textEl) textEl.textContent=p.done+" / "+p.total+" · "+p.pct+"%";
+    if(fill) fill.style.width=p.pct+"%";
     renderLessonList();
   }
 
